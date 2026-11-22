@@ -1,0 +1,85 @@
+---
+layout: layouts/base.njk
+title: Jeux de pouvoir
+description: La théorie des jeux appliquée à la politique belge, avec un focus sur la crise budgétaire de la coalition Arizona (novembre 2026). Faits vérifiés, arithmétique parlementaire, modèles, précédents, simulateurs.
+---
+<div data-pagefind-body>
+<section class="une" aria-labelledby="titre-une">
+  <div>
+    <h1 id="titre-une">Qui cédera le premier ?</h1>
+    <p class="chapeau">La théorie des jeux appliquée à la politique belge, et à la crise budgétaire qui bloque la coalition Arizona depuis octobre 2026. Des faits vérifiés, des modèles expliqués, des hypothèses que vous pouvez régler vous-même.</p>
+    <p class="date-etat">État des informations : {{ site.etatTexte }}. Lundi 23 novembre, le Premier ministre fait rapport au Roi, le jour d'une manifestation nationale.</p>
+  </div>
+
+  <figure class="matrice">
+    <table class="matrice-table">
+      <caption class="visuellement-cache">Matrice des gains simplifiée : Vooruit face aux quatre autres partenaires. Chaque case donne le classement de l'issue pour Vooruit puis pour les quatre, de 4 (la meilleure) à 1 (la pire).</caption>
+      <colgroup><col class="c-joueur"><col class="c-strat"><col><col></colgroup>
+      <thead>
+        <tr><td colspan="2" rowspan="2" class="coin"></td><th colspan="2" scope="colgroup" class="joueur-col">Les quatre autres partenaires<span class="petit"> N-VA, MR, Engagés, CD&amp;V</span></th></tr>
+        <tr><th scope="col" class="strat">Rouvrir le tableau</th><th scope="col" class="strat">Tenir le tableau</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="2" scope="rowgroup" class="joueur-ligne"><span>Vooruit</span></th>
+          <th scope="row" class="strat-ligne">Signer</th>
+          <td class="case"><span class="gains">(3, 3)</span><span class="issue">Compromis</span><span class="detail">Un geste lisible pour Vooruit contre sa signature : chacun cède un peu.</span></td>
+          <td class="case"><span class="gains">(2, 4)</span><span class="issue">Vooruit plie</span><span class="detail">Accord sur le tableau du 15 novembre ; Vooruit en paie le prix devant sa base.</span></td>
+        </tr>
+        <tr>
+          <th scope="row" class="strat-ligne">Refuser</th>
+          <td class="case"><span class="gains">(4, 2)</span><span class="issue">Les quatre cèdent</span><span class="detail">Vooruit obtient l'essentiel ; le plafond de recettes défendu par le MR saute.</span></td>
+          <td class="case collision ici"><span class="matrice-repere">22 nov. : personne n'a cédé</span><span class="gains">(1, 1)</span><span class="issue">Collision</span><span class="detail">Chute possible, dissolution à la majorité absolue, élections pour un mandat écourté jusqu'en 2029.</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <figcaption id="legende-matrice" class="matrice-legende">Lecture : en ligne, ce que fait Vooruit (signer en haut, refuser en bas) ; en colonne, ce que font les quatre autres. Les chiffres classent les issues pour chaque camp (Vooruit, les quatre), de 4 (la meilleure) à 1 (la pire). C'est la structure d'un <a href="/modeles/poule-mouillee/">jeu de la poule mouillée</a> : chacun préfère que l'autre cède, mais tous préfèrent céder plutôt que la collision. <strong>Tant que chacun tient, on reste dans la case du bas à droite, sans y être encore « dans le mur » :</strong> la collision ne survient que si personne ne bouge avant l'échéance. Vendredi, De Wever et Rousseau se sont parlé trois heures. Ce schéma simplifie un jeu à cinq ; en octobre, c'était le MR qui tenait seul, sur la TVA.</figcaption>
+  </figure>
+</section>
+
+<h2 id="essentiel">Ce qu'il faut retenir</h2>
+<ol class="essentiel">
+  <li>
+    <h3>Un désaccord de répartition</h3>
+    <p>Le gros de l'effort de 10 milliards d'ici 2029 semble arbitré. Reste à décider qui porte le dernier morceau. Vooruit a accepté environ 1,2 milliard de contribution des plus aisés et en demande 1,5, avec moins d'économies en soins de santé. Le MR, lui, lit dans l'accord de gouvernement un plafond de 1,1 milliard de recettes nouvelles.</p>
+  </li>
+  <li>
+    <h3>Cinq vetos, une seule majorité</h3>
+    <p>La coalition tient avec 80 sièges sur 150 : chaque parti peut la faire tomber. Aucune majorité de rechange ne réunit à la fois les sièges, la double majorité linguistique et l'accord des partis qu'il faudrait faire entrer.</p>
+  </li>
+  <li>
+    <h3>Le partenaire indispensable n'est pas celui qu'on croit</h3>
+    <p>Si l'on applique le cordon sanitaire et la double majorité linguistique, la N-VA pèse 34 % selon l'indice de Shapley-Shubik, contre 20 % des sièges. Le MR, lui, est arithmétiquement remplaçable par le PS : ce qui le protège est politique, pas mathématique. <a href="/arithmetique/">Le détail des calculs</a>.</p>
+  </li>
+  <li>
+    <h3>La collision coûte à tous, céder en dernier rapporte</h3>
+    <p>Les sondages sont défavorables à quatre partenaires sur cinq, les agences de notation surveillent, et une dissolution n'ouvrirait qu'un mandat écourté. Le compromis l'emporte donc collectivement. Mais les douzièmes provisoires rendent l'attente moins chère, ce qui allonge la <a href="/modeles/guerre-usure/">guerre d'usure</a>.</p>
+  </li>
+  <li>
+    <h3>Des menaces usées, un blâme partagé</h3>
+    <p>Lundi sera la quatrième visite au Palais du mois : la menace de démission a perdu de sa force. Isoler Vooruit a aussi ses limites : dans un sondage flamand, la responsabilité de la crise va à Vooruit (27 %) presque autant qu'à la N-VA (26 %).</p>
+  </li>
+</ol>
+
+<section class="etat" aria-labelledby="ou-en-est-on">
+  <h2 id="ou-en-est-on">Où en est-on au 22 novembre ?</h2>
+  <ul>
+    <li>Vendredi 20 novembre, le contact est renoué : échange entre Valerie Van Peel (présidente de la N-VA) et Conner Rousseau, puis trois heures d'entretien entre le Premier ministre et le président de Vooruit. Rien n'a filtré sur le contenu.</li>
+    <li>Le même jour, Fitch a maintenu la note A+, et le gouvernement a approuvé les douzièmes provisoires de janvier à mars 2027.</li>
+    <li>Aucune réunion n'était annoncée pour le week-end. Lundi 23, Bart De Wever retourne chez le Roi, et le front commun syndical manifeste à Bruxelles.</li>
+  </ul>
+  <p>Notre lecture, avec nos réglages par défaut : un accord-cadre reste plus probable (environ 59 %) qu'un enlisement en douzièmes (23 %), que des élections anticipées (16 %) ou qu'une recomposition de la majorité (3 %). Ce sont des jugements, pas des mesures : <a href="/outils/scenarios/">modifiez les hypothèses</a> pour voir ce qu'elles impliquent.</p>
+</section>
+
+<h2 id="explorer">Explorer le site</h2>
+<ul class="entrees">
+  <li><a href="/crise/">La crise</a><p>Les faits vérifiés, les montants, les acteurs, les règles du jeu institutionnelles.</p></li>
+  <li><a href="/chronologie/">Chronologie</a><p>Du scrutin de 2024 au 23 novembre 2026, avec les précédents. Filtrable par acteur et par type.</p></li>
+  <li><a href="/arithmetique/">Arithmétique</a><p>Sièges, groupes linguistiques, coalitions de rechange et indices de pouvoir recalculés.</p></li>
+  <li><a href="/modeles/">Modèles</a><p>Poule mouillée, guerre d'usure, marchandage, jeux à deux niveaux, acteurs de veto…</p></li>
+  <li><a href="/histoire/">Précédents belges</a><p>Du pacte scolaire de 1958 aux 613 jours bruxellois, lus avec les mêmes outils.</p></li>
+  <li><a href="/outils/">Simulateurs et scénarios</a><p>Réglez les paramètres et observez ce que les modèles prédisent, et ce qu'ils ne disent pas.</p></li>
+  <li><a href="/verification/">Vérification croisée</a><p>Deux synthèses de travail confrontées aux sources, point par point : ce qui tient, ce qui est corrigé.</p></li>
+  <li><a href="/methode/">Méthode et réflexivité</a><p>D'où parle ce site, comment il a été fait (avec une IA), ce que la théorie des jeux ne voit pas.</p></li>
+</ul>
+</div>

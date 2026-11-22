@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+---
+{%- set sommaire = content | toc -%}
+<div class="page{% if not sommaire.length or sansSommaire %} page-seule{% endif %}">
+  <article class="page-contenu prose"{% if indexer !== false %} data-pagefind-body{% endif %}>
+    {% if fil %}<p class="fil"><a href="{{ fil.url }}">{{ fil.titre }}</a></p>{% endif %}
+    <h1>{{ title }}</h1>
+    {% if chapeau %}<p class="chapeau">{{ chapeau | md | safe }}</p>{% endif %}
+    {% if dateEtat !== false %}<p class="date-etat">État des informations : {{ site.etat | dateFr }}.</p>{% endif %}
+    {{ content | safe }}
+    {% if suite %}
+    <nav class="suite" aria-label="Pages voisines">
+      <span>{% if suite.precedent %}Précédent : <a href="{{ suite.precedent.url }}">{{ suite.precedent.titre }}</a>{% endif %}</span>
+      <span>{% if suite.suivant %}Suivant : <a href="{{ suite.suivant.url }}">{{ suite.suivant.titre }}</a>{% endif %}</span>
+    </nav>
+    {% endif %}
+  </article>
+  {% if sommaire.length and not sansSommaire %}
+  <aside class="sommaire" aria-label="Sommaire de la page">
+    <h2>Sur cette page</h2>
+    <ol>
+      {% for h in sommaire %}<li><a href="#{{ h.id }}">{{ h.text }}</a></li>
+      {% endfor %}
+    </ol>
+  </aside>
+  {% endif %}
+</div>

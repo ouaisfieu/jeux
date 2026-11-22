@@ -1,0 +1,44 @@
+{
+  "titre": "Intentions de vote, sondage Ipsos du 8 au 15 septembre 2026",
+  "source": "Ipsos pour Le Soir, RTL-TVI, Het Laatste Nieuws et VTM",
+  "note": "Marge d'erreur d'environ 3 à 4 points ; l'échantillon bruxellois (600 personnes) est plus petit que les autres. À Bruxelles, seuls les partis à 5 % ou plus sont montrés.",
+  "regions": [
+    { "nom": "Flandre", "partis": [
+      { "p": "Vlaams Belang", "v": 27.8 },
+      { "p": "N-VA", "v": 23.0, "arizona": true },
+      { "p": "CD&V", "v": 13.3, "arizona": true },
+      { "p": "Vooruit", "v": 12.9, "arizona": true },
+      { "p": "PVDA", "v": 10.0 },
+      { "p": "Groen", "v": 6.2 },
+      { "p": "Anders", "v": 6.1 }
+    ]},
+    { "nom": "Wallonie", "partis": [
+      { "p": "PS", "v": 29.0 },
+      { "p": "MR", "v": 20.3, "arizona": true },
+      { "p": "PTB", "v": 18.9 },
+      { "p": "Les Engagés", "v": 17.6, "arizona": true },
+      { "p": "Ecolo", "v": 8.9 }
+    ]},
+    { "nom": "Bruxelles", "partis": [
+      { "p": "PTB", "v": 21.4 },
+      { "p": "PS", "v": 20.3 },
+      { "p": "MR", "v": 15.5, "arizona": true },
+      { "p": "Ecolo", "v": 9.9 },
+      { "p": "Les Engagés", "v": 9.5, "arizona": true },
+      { "p": "DéFI", "v": 5.2 }
+    ]}
+  ],
+  "crise": {
+    "titre": "Sondage Ipsos pour Het Nieuwsblad sur la crise budgétaire (500 répondants)",
+    "responsabilite": [
+      { "p": "Vooruit et Conner Rousseau", "v": 27 },
+      { "p": "N-VA et Bart De Wever", "v": 26 },
+      { "p": "MR", "v": 11 }
+    ],
+    "souhait": [
+      { "p": "Poursuivre les discussions avec des compromis", "v": 57 },
+      { "p": "Organiser de nouvelles élections", "v": 24 },
+      { "p": "Former une autre majorité", "v": 19 }
+    ]
+  }
+}

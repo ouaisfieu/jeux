@@ -1,0 +1,88 @@
+---
+title: Scénarios à hypothèses
+description: Un outil pour chiffrer les issues de la crise budgétaire de l'Arizona à partir de six hypothèses explicites, que vous pouvez modifier, avec une analyse de sensibilité.
+chapeau: "Quatre issues possibles, six hypothèses pour y arriver. Les probabilités ne sortent pas d'un calcul objectif : ce sont des jugements, rendus explicites pour que vous puissiez les discuter et les modifier."
+scripts: ["/assets/js/scenarios.js"]
+---
+{%- set S = scenarios -%}
+{%- set R = S.presets[0].valeurs | scenarioCalc -%}
+{%- set Rv = [R.A, R.B, R.C, R.D] -%}
+
+<h2 id="comment-ca-marche">Comment ça marche</h2>
+<p>Plutôt que d'annoncer un chiffre global, nous décomposons la suite de la crise en une série de questions simples, chacune associée à une probabilité. L'outil combine ces probabilités le long d'un arbre :</p>
+<ul>
+<li>d'abord, un geste permettant à Vooruit de signer est-il proposé, puis accepté par le MR, puis jugé suffisant par Vooruit ? Sinon, Vooruit cède-t-il quand même ?</li>
+<li>s'il n'y a pas d'accord, prolonge-t-on la négociation ou rompt-on ?</li>
+<li>en cas de rupture, va-t-on aux élections ou vers une autre majorité ?</li>
+</ul>
+<p>Chaque réglage renvoie à la page qui explique ce qui le fait monter ou descendre. Les valeurs par défaut sont les nôtres, au 22 novembre 2026. Elles sont discutables, et c'est le but.</p>
+
+<h2 id="l-outil">L'outil</h2>
+<div class="outil" id="outil-scenarios">
+<div class="outil-grille">
+<form class="reglages" id="form-scenarios" aria-label="Hypothèses du scénario">
+  <div class="presets" role="group" aria-label="Préréglages">
+    {%- for p in S.presets %}
+    <button type="button" class="bouton" data-preset="{{ p.id }}">{{ p.nom }}</button>
+    {%- endfor %}
+  </div>
+  {%- for q in S.questions %}
+  <div class="reglage">
+    <label for="{{ q.id }}"><span>{{ loop.index }}. {{ q.label }}</span><output id="{{ q.id }}-val" for="{{ q.id }}">{{ (q.defaut * 100) | round }} %</output></label>
+    <input type="range" id="{{ q.id }}" name="{{ q.id }}" min="0" max="1" step="0.05" value="{{ q.defaut }}">
+    <p class="aide">{{ q.aide }} Voir <a href="{{ q.lien.url }}">{{ q.lien.titre }}</a>.</p>
+  </div>
+  {%- endfor %}
+</form>
+
+<div class="resultat">
+  <h3 id="titre-issues">Probabilité de chaque issue</h3>
+  <div class="rangee-barres" id="barres-issues" aria-describedby="titre-issues">
+    {%- for i in S.issues %}
+    <div class="rangee" data-issue="{{ i.id }}"><span class="nom">{{ i.id }}. {{ i.nom }}</span><span class="piste"><span class="rempli" style="width: {{ (Rv[loop.index0] * 100) | round(1) }}%"></span></span><span class="val">{{ (Rv[loop.index0] * 100) | round }} %</span></div>
+    {%- endfor %}
+  </div>
+  <div class="lecture" id="lecture-scenarios" aria-live="polite">
+    <p>Avec nos réglages, l'accord-cadre reste l'issue la plus probable, sans être acquise : environ quatre chances sur dix qu'il n'y ait pas d'accord.</p>
+  </div>
+
+  <h3 id="titre-sensibilite">Ce qui pèse le plus</h3>
+  <p class="note-outil">Chaque ligne montre comment bouge la probabilité choisie quand on retire (cercle vide) ou ajoute (cercle plein) 15 points à une hypothèse, toutes les autres restant fixes. Le trait vertical marque la valeur actuelle.</p>
+  <p><label class="champ-inline">Probabilité observée : <select id="metrique">
+    <option value="A">accord-cadre</option>
+    <option value="C">élections anticipées</option>
+    <option value="B">enlisement</option>
+  </select></label></p>
+  <div id="sensibilite"><p class="noscript">Activez JavaScript pour afficher l'analyse de sensibilité.</p></div>
+
+  <h3>L'arbre des possibles</h3>
+  <div id="arbre" class="arbre-zone"><p class="noscript">Activez JavaScript pour afficher le détail de l'arbre.</p></div>
+
+  <p class="partager"><button type="button" class="bouton" id="copier-lien" hidden>Copier le lien vers ces réglages</button> <span id="copie-etat" class="note-outil" aria-live="polite"></span></p>
+</div>
+</div>
+</div>
+
+<noscript><p class="noscript">Sans JavaScript, l'outil affiche nos réglages par défaut. Activez-le pour modifier les hypothèses.</p></noscript>
+
+<h2 id="les-quatre-issues">Les quatre issues</h2>
+<dl class="glossaire">
+{%- for i in S.issues %}
+<dt>{{ i.id }}. {{ i.nom }}</dt>
+<dd>{{ i.detail }}</dd>
+{%- endfor %}
+</dl>
+
+<h2 id="lire-ces-chiffres-avec-prudence">Lire ces chiffres avec prudence</h2>
+<div class="encadre limite">
+<ul>
+<li><strong>Ce sont des jugements.</strong> Aucune donnée ne permet de mesurer la probabilité qu'un parti accepte un geste. Nos valeurs résument une lecture des précédents et des signaux disponibles. D'autres analystes, avec les mêmes informations, en retiendraient d'autres.</li>
+<li><strong>L'arbre simplifie.</strong> Il suppose que les questions se posent dans cet ordre et que les réponses sont indépendantes, sauf là où l'arbre les relie. Dans la réalité, un geste refusé par le MR peut durcir Vooruit, ce que l'arbre ne capte pas.</li>
+<li><strong>Il compare surtout des hypothèses.</strong> L'intérêt de l'outil est moins le chiffre final que la sensibilité : savoir quelle hypothèse, si elle se révélait fausse, changerait le plus le tableau.</li>
+<li><strong>Il est daté.</strong> Les réglages par défaut datent du {{ site.etatTexte }}. Le communiqué du Palais du 23 novembre, ou le retour de Vooruit dans les réunions, devrait les faire bouger.</li>
+</ul>
+</div>
+
+<p>L'un des documents de travail proposait des estimations proches des nôtres : 55 à 65 % pour un accord, environ 20 % pour un enlisement, 15 à 20 % pour des élections et moins de 5 % pour une recomposition. Le préréglage « Document de travail du 18 novembre » donne des résultats compris dans ces fourchettes (voir <a href="/verification/">Vérification</a>). Cette proximité ne valide ni l'une ni l'autre estimation : les deux reposent sur les mêmes précédents et les mêmes signaux publics.</p>
+
+<script type="application/json" id="donnees-scenarios">{{ S | json | safe }}</script>

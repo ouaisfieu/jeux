@@ -1,0 +1,1532 @@
+{
+ "categories": [
+  {
+   "id": "officiel",
+   "titre": "Documents officiels et primaires",
+   "description": "Chambre, Constitution, institutions européennes, communiqués reproduits par la presse. Ce sont les références les plus solides pour les règles et les chiffres."
+  },
+  {
+   "id": "academique",
+   "titre": "Travaux scientifiques et centres de recherche",
+   "description": "Articles évalués par les pairs, ouvrages universitaires, analyses du CRISP. Ils fondent les modèles ; leur application à la crise de 2026 est la nôtre."
+  },
+  {
+   "id": "presse",
+   "titre": "Presse de référence et agences",
+   "description": "VRT, RTBF, Belga, La Libre, L'Avenir, DH, Bruzz, BX1, Paris Match Belgique, Brussels Times, Euronews… Fiables pour les faits datés, plus fragiles quand elles rapportent des sources anonymes."
+  },
+  {
+   "id": "secondaire",
+   "titre": "Sources secondaires, encyclopédies et agrégateurs",
+   "description": "Utiles pour repérer une information ou un chiffre, jamais suffisantes seules."
+  },
+  {
+   "id": "travail",
+   "titre": "Documents de travail à l'origine de ce site",
+   "description": "Deux synthèses non publiées, arrêtées au 18 novembre 2026, que ce site croise et complète. Voir la page Vérification."
+  },
+  {
+   "id": "ecartee",
+   "titre": "Sources écartées ou à manier avec prudence",
+   "description": "Citées dans les documents de travail mais non retenues comme appui : agrégateurs sans signature, sites à ligne éditoriale marquée, liens internes ou circulaires."
+  }
+ ],
+ "liste": [
+  {
+   "id": "chambre-composition-2025",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Composition politique, DOC 56 0003/005",
+   "date": "20 mars 2025",
+   "url": "https://www.dekamer.be/FLWB/pdf/56/0003/56K0003005.pdf",
+   "note": "Liste officielle des groupes politiques et des groupes linguistiques de chaque député."
+  },
+  {
+   "id": "chambre-groupes-linguistiques",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Groupes linguistiques, DOC 56 0002/006",
+   "date": "56e législature",
+   "url": "https://www.dekamer.be/FLWB/PDF/56/0002/56K0002006.pdf",
+   "note": "Le groupe linguistique néerlandais compte 90 membres, le groupe français 60."
+  },
+  {
+   "id": "chambre-fiche-composition",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Fiche d'information 10.00 : composition de la Chambre",
+   "date": "février 2026",
+   "url": "https://www.dekamer.be/pdf_sections/pri/fiche/nl_10_00.pdf",
+   "note": "Règles des groupes linguistiques (Bruxelles : langue du premier serment) et des groupes politiques (cinq membres minimum)."
+  },
+  {
+   "id": "chambre-plen-2026-01-08",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Compte rendu intégral, séance plénière du 8 janvier 2026 (CRIV 56 PLEN 089) : modification de la composition d'un groupe politique",
+   "date": "8 janvier 2026",
+   "url": "https://www.dekamer.be/doc/PCRI/pdf/56/ip089.pdf"
+  },
+  {
+   "id": "chambre-precis-budget",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Précis des règles budgétaires à usage parlementaire",
+   "date": "",
+   "url": "https://www.lachambre.be/kvvcr/pdf_sections/jurid/precis_budget.pdf",
+   "note": "Crédits provisoires : loi du 22 mai 2003, articles 55 à 58 ; périodes de quatre mois au plus."
+  },
+  {
+   "id": "chambre-credits-2026",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Projet de loi ouvrant des crédits provisoires pour janvier, février et mars 2026, DOC 56 1200/003",
+   "date": "décembre 2025",
+   "url": "https://www.dekamer.be/doc/FLWB/pdf/56/1200/56K1200003.pdf"
+  },
+  {
+   "id": "chambre-art46",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Proposition de révision de l'article 46 de la Constitution (S. Schlitz, S. Van Hecke et consorts), DOC 56 0068/001, qui reproduit le texte en vigueur de l'article 46",
+   "date": "2024",
+   "url": "https://www.dekamer.be/FLWB/Pdf/56/0068/56K0068001.pdf"
+  },
+  {
+   "id": "chambre-art46-vb",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Proposition de révision de l'article 46 de la Constitution (B. Pas et consorts), DOC 56 0198/001",
+   "date": "2024",
+   "url": "https://www.dekamer.be/FLWB/pdf/56/0198/56K0198001.pdf",
+   "note": "Le Vlaams Belang propose une dissolution automatique en cas de formation interminable."
+  },
+  {
+   "id": "chambre-1970-sonnette",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Révision de la Constitution : article 38bis (procédure dite de la « sonnette d'alarme »), texte transmis par le Sénat",
+   "date": "1970",
+   "url": "https://www.lachambre.be/digidoc/DPS/K2007/K20070700/K20070700.pdf"
+  },
+  {
+   "id": "chambre-1970-parite",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Chambre des représentants",
+   "titre": "Révision de la Constitution : article 86bis (parité linguistique du Conseil des ministres)",
+   "date": "28 mai 1970",
+   "url": "https://www.lachambre.be/digidoc/DPS/K2007/K20070501/K20070501.pdf"
+  },
+  {
+   "id": "gouv-sonnette-2025",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "news.belgium.be",
+   "titre": "Abrogation de la procédure de sonnette d'alarme dans les parlements des Communautés (Conseil des ministres du 5 décembre 2025)",
+   "date": "8 décembre 2025",
+   "url": "https://news.belgium.be/fr/node/42032/pdf"
+  },
+  {
+   "id": "ce-printemps-2026",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Commission européenne",
+   "titre": "Economic forecast for Belgium (prévisions de printemps 2026)",
+   "date": "21 mai 2026",
+   "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/belgium/economic-forecast-belgium_en"
+  },
+  {
+   "id": "constitution",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Sénat de Belgique",
+   "titre": "La Constitution belge (texte coordonné ; articles 46, 54, 96, 99, 106 et 174)",
+   "date": "version 2025",
+   "url": "https://senate.be/doc/20250625_CONSTITUTION.pdf"
+  },
+  {
+   "id": "tresor-belgique",
+   "categorie": "officiel",
+   "fiabilite": "A",
+   "media": "Direction générale du Trésor (France)",
+   "titre": "Situation économique et financière de la Belgique (procédure pour déficit excessif ouverte le 26 juillet 2024)",
+   "date": "",
+   "url": "https://www.tresor.economie.gouv.fr/Pays/BE/situation-economique-et-financiere-de-la-belgique"
+  },
+  {
+   "id": "tsebelis-1990-jtp",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "George Tsebelis",
+   "media": "Journal of Theoretical Politics, 2(1), p. 5-29",
+   "titre": "Elite Interaction and Constitution Building in Consociational Democracies",
+   "date": "1990",
+   "url": "https://doi.org/10.1177/0951692890002001001"
+  },
+  {
+   "id": "tsebelis-1990-nested",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "George Tsebelis",
+   "media": "University of California Press (chap. 6 : « A rational-choice approach to consociationalism »)",
+   "titre": "Nested Games: Rational Choice in Comparative Politics",
+   "date": "1990",
+   "url": "https://www.jstor.org/stable/10.1525/j.ctt1pnk3s"
+  },
+  {
+   "id": "tsebelis-2002",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "George Tsebelis",
+   "media": "Princeton University Press / Russell Sage Foundation",
+   "titre": "Veto Players: How Political Institutions Work",
+   "date": "2002",
+   "url": ""
+  },
+  {
+   "id": "angelova-2018",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Mariyana Angelova, Hanna Bäck, Wolfgang C. Müller et Daniel Strobl",
+   "media": "European Journal of Political Research, 57(2), p. 282-307",
+   "titre": "Veto player theory and reform making in Western Europe",
+   "date": "2018",
+   "url": "https://doi.org/10.1111/1475-6765.12226"
+  },
+  {
+   "id": "hooghe-deschouwer-2011",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Marc Hooghe et Kris Deschouwer",
+   "media": "West European Politics, 34(3), p. 626-643",
+   "titre": "Veto Players and Electoral Reform in Belgium",
+   "date": "2011",
+   "url": ""
+  },
+  {
+   "id": "lijphart-1969",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Arend Lijphart",
+   "media": "World Politics, 21(2), p. 207-225",
+   "titre": "Consociational Democracy",
+   "date": "1969",
+   "url": ""
+  },
+  {
+   "id": "lijphart-1977",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Arend Lijphart",
+   "media": "Yale University Press",
+   "titre": "Democracy in Plural Societies: A Comparative Exploration",
+   "date": "1977",
+   "url": ""
+  },
+  {
+   "id": "lijphart-1981",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Arend Lijphart (dir.)",
+   "media": "Institute of International Studies, University of California, Berkeley",
+   "titre": "Conflict and Coexistence in Belgium: The Dynamics of a Culturally Divided Society",
+   "date": "1981",
+   "url": ""
+  },
+  {
+   "id": "huyse-1970",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Luc Huyse",
+   "media": "Standaard Wetenschappelijke Uitgeverij",
+   "titre": "Passiviteit, pacificatie en verzuiling in de Belgische politiek",
+   "date": "1970",
+   "url": ""
+  },
+  {
+   "id": "deschouwer-2002",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Kris Deschouwer",
+   "media": "Acta Politica, 37 (numéro spécial sur le consociationalisme)",
+   "titre": "Falling Apart Together. The Changing Nature of Belgian Consociationalism, 1961-2001",
+   "date": "2002",
+   "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3450866/download"
+  },
+  {
+   "id": "deschouwer-2012",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Kris Deschouwer",
+   "media": "Palgrave Macmillan, 2e éd.",
+   "titre": "The Politics of Belgium: Governing a Divided Society",
+   "date": "2012",
+   "url": ""
+  },
+  {
+   "id": "dewinter-dumont-2000",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Lieven De Winter, Arco Timmermans et Patrick Dumont",
+   "media": "dans W. C. Müller et K. Strøm (dir.), Coalition Governments in Western Europe, Oxford University Press, p. 300-355",
+   "titre": "Chapitre consacré à la Belgique (formation et gouvernance des coalitions)",
+   "date": "2000",
+   "url": ""
+  },
+  {
+   "id": "dewinter-dumont-2022",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Lieven De Winter et Patrick Dumont",
+   "media": "dans D. Caluwaerts et M. Reuchamps (dir.), Belgian Exceptionalism, Routledge (accès ouvert)",
+   "titre": "Coalition formation in Belgium: From exceptional complexity to regime breakdown?",
+   "date": "2022",
+   "url": "https://library.oapen.org/bitstream/20.500.12657/51424/1/9781000517262.pdf"
+  },
+  {
+   "id": "biard-2022",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Benjamin Biard",
+   "media": "dans D. Caluwaerts et M. Reuchamps (dir.), Belgian Exceptionalism, Routledge (accès ouvert)",
+   "titre": "Challenging the cordon sanitaire in Belgium: A diachronic analysis",
+   "date": "2022",
+   "url": "https://library.oapen.org/bitstream/20.500.12657/51424/1/9781000517262.pdf"
+  },
+  {
+   "id": "devos-sinardet-2012",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Carl Devos et Dave Sinardet",
+   "media": "Governance, 25(2), p. 167-171",
+   "titre": "Governing without a Government: The Belgian Experiment",
+   "date": "2012",
+   "url": ""
+  },
+  {
+   "id": "caulier-dumont",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Jean-François Caulier et Patrick Dumont",
+   "media": "MPRA Paper n° 17846 (document de travail)",
+   "titre": "The effective number of relevant parties: how voting power improves Laakso-Taagepera's index",
+   "date": "",
+   "url": "https://mpra.ub.uni-muenchen.de/17846/1/MPRA_paper_17846.pdf",
+   "note": "Montre l'usage d'indices de pouvoir (Banzhaf) pour la Belgique, y compris pour prédire la durée des gouvernements."
+  },
+  {
+   "id": "dandoy-lebrun",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Régis Dandoy et Robin Lebrun",
+   "media": "Université libre de Bruxelles (dépôt institutionnel)",
+   "titre": "La formation des gouvernements en Belgique",
+   "date": "",
+   "url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/342674/3/La_formation_des_gouvernements_en_Belgique.pdf"
+  },
+  {
+   "id": "pdy-2025",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Pierre Baudewyns, Audrey Vandeleene, Lieven De Winter et Serge Deruette",
+   "media": "European Journal of Political Research, Political Data Yearbook",
+   "titre": "Belgium: Political Developments and Data in 2024",
+   "date": "2025",
+   "url": "https://orbi.umons.ac.be/bitstream/20.500.12907/54946/1/PDY%20-%202025,%20Belgium%20%20Political%20Developments%20and%20Data%20in%202024.pdf"
+  },
+  {
+   "id": "crisp-bruxelles-2026",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Jean-Paul Nassaux",
+   "media": "Les @nalyses du CRISP en ligne",
+   "titre": "Un gouvernement bruxellois après 613 jours ? Non, peut-être !",
+   "date": "6 mars 2026",
+   "url": "https://www.crisp.be/crisp/wp-content/uploads/analyses/AL2026-05.pdf"
+  },
+  {
+   "id": "schelling-1960",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Thomas C. Schelling",
+   "media": "Harvard University Press",
+   "titre": "The Strategy of Conflict",
+   "date": "1960",
+   "url": ""
+  },
+  {
+   "id": "maynard-smith-1974",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "John Maynard Smith",
+   "media": "Journal of Theoretical Biology, 47(1), p. 209-221",
+   "titre": "The theory of games and the evolution of animal conflicts",
+   "date": "1974",
+   "url": ""
+  },
+  {
+   "id": "alesina-drazen-1991",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Alberto Alesina et Allan Drazen",
+   "media": "American Economic Review, 81(5), p. 1170-1188",
+   "titre": "Why Are Stabilizations Delayed?",
+   "date": "1991",
+   "url": ""
+  },
+  {
+   "id": "nash-1950",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "John F. Nash",
+   "media": "Econometrica, 18(2), p. 155-162",
+   "titre": "The Bargaining Problem",
+   "date": "1950",
+   "url": ""
+  },
+  {
+   "id": "rubinstein-1982",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Ariel Rubinstein",
+   "media": "Econometrica, 50(1), p. 97-109",
+   "titre": "Perfect Equilibrium in a Bargaining Model",
+   "date": "1982",
+   "url": ""
+  },
+  {
+   "id": "binmore-1989",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Ken Binmore, Avner Shaked et John Sutton",
+   "media": "Quarterly Journal of Economics, 104(4), p. 753-770",
+   "titre": "An Outside Option Experiment",
+   "date": "1989",
+   "url": ""
+  },
+  {
+   "id": "baron-ferejohn-1989",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "David P. Baron et John A. Ferejohn",
+   "media": "American Political Science Review, 83(4), p. 1181-1206",
+   "titre": "Bargaining in Legislatures",
+   "date": "1989",
+   "url": ""
+  },
+  {
+   "id": "putnam-1988",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Robert D. Putnam",
+   "media": "International Organization, 42(3), p. 427-460",
+   "titre": "Diplomacy and Domestic Politics: The Logic of Two-Level Games",
+   "date": "1988",
+   "url": ""
+  },
+  {
+   "id": "fearon-1994",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "James D. Fearon",
+   "media": "American Political Science Review, 88(3), p. 577-592",
+   "titre": "Domestic Political Audiences and the Escalation of International Disputes",
+   "date": "1994",
+   "url": ""
+  },
+  {
+   "id": "riker-1962",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "William H. Riker",
+   "media": "Yale University Press",
+   "titre": "The Theory of Political Coalitions",
+   "date": "1962",
+   "url": ""
+  },
+  {
+   "id": "gamson-1961",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "William A. Gamson",
+   "media": "American Sociological Review, 26(3), p. 373-382",
+   "titre": "A Theory of Coalition Formation",
+   "date": "1961",
+   "url": ""
+  },
+  {
+   "id": "shapley-shubik-1954",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Lloyd S. Shapley et Martin Shubik",
+   "media": "American Political Science Review, 48(3), p. 787-792",
+   "titre": "A Method for Evaluating the Distribution of Power in a Committee System",
+   "date": "1954",
+   "url": ""
+  },
+  {
+   "id": "banzhaf-1965",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "John F. Banzhaf III",
+   "media": "Rutgers Law Review, 19(2), p. 317-343",
+   "titre": "Weighted Voting Doesn't Work: A Mathematical Analysis",
+   "date": "1965",
+   "url": ""
+  },
+  {
+   "id": "laver-shepsle-1996",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Michael Laver et Kenneth A. Shepsle",
+   "media": "Cambridge University Press",
+   "titre": "Making and Breaking Governments",
+   "date": "1996",
+   "url": ""
+  },
+  {
+   "id": "strom-1990",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Kaare Strøm",
+   "media": "American Journal of Political Science, 34(2), p. 565-598",
+   "titre": "A Behavioral Theory of Competitive Political Parties",
+   "date": "1990",
+   "url": ""
+  },
+  {
+   "id": "lupia-strom-1995",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Arthur Lupia et Kaare Strøm",
+   "media": "American Political Science Review, 89(3), p. 648-665",
+   "titre": "Coalition Termination and the Strategic Timing of Parliamentary Elections",
+   "date": "1995",
+   "url": ""
+  },
+  {
+   "id": "weaver-1986",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "R. Kent Weaver",
+   "media": "Journal of Public Policy, 6(4), p. 371-398",
+   "titre": "The Politics of Blame Avoidance",
+   "date": "1986",
+   "url": ""
+  },
+  {
+   "id": "dellis-2005",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Arnaud Dellis",
+   "media": "International Institute of Public Finance (document primé, 2005)",
+   "titre": "Blame-Game Politics in a Coalition Government",
+   "date": "2005",
+   "url": "https://www.iipf.org/prize05_1.pdf"
+  },
+  {
+   "id": "hallerberg-vonhagen-1999",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Mark Hallerberg et Jürgen von Hagen",
+   "media": "dans J. Poterba et J. von Hagen (dir.), Fiscal Institutions and Fiscal Performance, University of Chicago Press, p. 209-232",
+   "titre": "Electoral Institutions, Cabinet Negotiations, and Budget Deficits in the European Union",
+   "date": "1999",
+   "url": ""
+  },
+  {
+   "id": "weingast-1981",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Barry R. Weingast, Kenneth A. Shepsle et Christopher Johnsen",
+   "media": "Journal of Political Economy, 89(4), p. 642-664",
+   "titre": "The Political Economy of Benefits and Costs: A Neoclassical Approach to Distributive Politics",
+   "date": "1981",
+   "url": ""
+  },
+  {
+   "id": "cappella-jamieson-1997",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Joseph N. Cappella et Kathleen Hall Jamieson",
+   "media": "Oxford University Press",
+   "titre": "Spiral of Cynicism: The Press and the Public Good",
+   "date": "1997",
+   "url": ""
+  },
+  {
+   "id": "deschouwer-vanparijs-2009",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Kris Deschouwer et Philippe Van Parijs (dir.)",
+   "media": "Re-Bel e-book n° 4",
+   "titre": "Electoral Engineering for a Stalled Federation: A Country-wide Electoral District for Belgium's Federal Parliament",
+   "date": "2009",
+   "url": ""
+  },
+  {
+   "id": "witte-1999",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "Els Witte, Jan De Groof et Jeffrey Tyssens (dir.)",
+   "media": "Garant",
+   "titre": "Het schoolpact van 1958: ontstaan, grondlijnen en toepassing van een Belgisch compromis",
+   "date": "1999",
+   "url": ""
+  },
+  {
+   "id": "emulations-2011",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "",
+   "media": "Émulations, revue de sciences sociales (UCLouvain)",
+   "titre": "Article sur les facteurs extérieurs (dont la dégradation par Standard & Poor's) qui ont débloqué la formation fédérale en novembre 2011",
+   "date": "",
+   "url": "https://ojs.uclouvain.be/index.php/emulations/article/download/5383/4033"
+  },
+  {
+   "id": "ucl-benelux-2020",
+   "categorie": "academique",
+   "fiabilite": "A",
+   "auteur": "",
+   "media": "UCL Discovery (chapitre universitaire)",
+   "titre": "Chapitre sur la politique des pays du Benelux en 2020 (formation de 494 jours, pouvoirs spéciaux, Vivaldi)",
+   "date": "",
+   "url": "https://discovery-pp.ucl.ac.uk/10122697/1/Benelux%201.pdf"
+  },
+  {
+   "id": "vrt-liveblog-nov",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS",
+   "titre": "Liveblog Wetstraat : contacts N-VA–Vooruit, kern, Palais (du 6 au 21 novembre 2026)",
+   "date": "consulté le 22 novembre 2026",
+   "url": "https://vrt.be/vrtnws/nl/liveblog/voorzitters-vooruit-en-nva-hebben-weer-contact-over-begroting~1793247532380",
+   "note": "Source la plus détaillée pour la chronologie fine ; chaque entrée est horodatée."
+  },
+  {
+   "id": "vrt-liveblog-oct",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS",
+   "titre": "Liveblog Wetstraat : kern sans accord budgétaire, Vooruit « vendra cher sa peau » (fin octobre 2026)",
+   "date": "octobre 2026",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/kernkabinet-uiteen-zonder-begrotingsakkoord-vooruit-zal-huid-d~1790599460224/"
+  },
+  {
+   "id": "vrt-liveblog-flandre",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS",
+   "titre": "Liveblog Wetstraat : Vooruit freine l'accord budgétaire flamand après une erreur dans le tableau « bien-être »",
+   "date": "automne 2026",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/het-kwartier-is-om-we-hebben-een-akkoord-vlaamse-regering-is~1790599460224/"
+  },
+  {
+   "id": "vrt-liveblog-devos-flandre",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS",
+   "titre": "Liveblog Wetstraat : débat budgétaire au Parlement flamand (analyse de Carl Devos)",
+   "date": "automne 2026",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/debat-in-vlaams-parlement-over-begroting-sleept-aan-screen-flan~1790599460224/"
+  },
+  {
+   "id": "vrt-liveblog-schuldenrem",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS",
+   "titre": "Liveblog Wetstraat : De Wever veut un « frein à l'endettement » faute d'accord",
+   "date": "octobre 2026",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/premier-de-wever-wil-schuldenrem-als-begrotingsakkoord-niet-ti~1790599460224/"
+  },
+  {
+   "id": "vrt-liveblog-15oct",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS",
+   "titre": "Liveblog Wetstraat : la Belgique doit déposer son budget à la Commission au plus tard le 15 octobre",
+   "date": "septembre 2026",
+   "url": "https://www.vrt.be/vrtnws/nl/liveblog/schietpartijen-in-brussel-minister-quintin-wil-nummerplaat-op-e~1780024580839/"
+  },
+  {
+   "id": "rtbf-2026-11-21",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "RTBF",
+   "titre": "Budget fédéral : Conner Rousseau et Bart De Wever se sont entretenus pendant trois heures ce vendredi",
+   "date": "21 novembre 2026",
+   "url": "https://www.rtbf.be/article/budget-federal-conner-rousseau-et-bart-de-wever-se-sont-entretenus-pendant-trois-heures-ce-vendredi-11818982"
+  },
+  {
+   "id": "lavenir-2026-11-20",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "L'Avenir",
+   "titre": "Crise budgétaire : la N-VA et Vooruit renouent le contact, mais Bart De Wever laisse encore Vandenbroucke dans l'attente",
+   "date": "20 novembre 2026",
+   "url": "https://www.lavenir.net/actu/belgique/politique/2026/11/20/crise-budgetaire-la-n-va-et-vooruit-renouent-le-contact-mais-bart-de-wever-laisse-encore-vandenbroucke-dans-lattente-OHQ7LQBN4RCAXH64PZYERDKVWM/",
+   "note": "Rapporte un sondage Ipsos pour Het Nieuwsblad (500 répondants) sur la responsabilité de la crise."
+  },
+  {
+   "id": "lalibre-2026-11-18",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Crise au sein du gouvernement Arizona : Bart De Wever écarte Vooruit de ses discussions",
+   "date": "18 novembre 2026",
+   "url": "https://www.lalibre.be/belgique/politique-belge/2026/11/18/crise-au-gouvernement-arizona-bart-de-wever-ecarte-vooruit-de-ses-discussions-FYRDB5RCQNB5RBSUWQNQMQTF3M/"
+  },
+  {
+   "id": "lavenir-2026-11-18",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "L'Avenir",
+   "titre": "La crise est confirmée au sein de l'Arizona : fâché contre Vooruit, Bart De Wever laisse le parti sur le côté",
+   "date": "18 novembre 2026",
+   "url": "https://www.lavenir.net/actu/belgique/politique/2026/11/18/la-crise-est-confirmee-au-sein-de-larizona-fache-contre-vooruit-bart-de-wever-laisse-le-parti-sur-le-cote-N5FMGNHAFRGT3AEEZPWQPIFS24/"
+  },
+  {
+   "id": "vrt-en-2026-11-17",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS (en anglais)",
+   "titre": "European Commission sounds alert over Belgium's budget deficit",
+   "date": "17 novembre 2026",
+   "url": "https://www.vrt.be/vrtnws/en/2026/11/17/european-commission-sounds-alert-over-belgiums-budget-deficit-an/"
+  },
+  {
+   "id": "businessam-ce-automne",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Business AM",
+   "titre": "La Belgique risque de s'enfoncer de plus en plus dans les dettes",
+   "date": "novembre 2026",
+   "url": "https://fr.businessam.be/?p=299216"
+  },
+  {
+   "id": "brusselstimes-ce-2027",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "The Brussels Times",
+   "titre": "European Commission: interest costs to increase Belgium's budget deficit in 2027",
+   "date": "novembre 2026",
+   "url": "https://www.brusselstimes.com/2410440/european-commission-interest-costs-to-increase-belgiums-budget-deficit-in-2027"
+  },
+  {
+   "id": "parismatch-2026-11-16",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Paris Match Belgique",
+   "titre": "Bart De Wever reçu par le roi Philippe : voici la conclusion de leur échange, suite à l'absence d'accord pour le budget fédéral",
+   "date": "16 novembre 2026",
+   "url": "https://www.parismatch.be/actualites/politique/2026/11/16/bart-de-wever-recu-par-le-roi-philippe-voici-la-conclusion-de-leur-echange-suite-a-labsence-daccord-pour-le-budget-federal-UXOHCTE4VVHIHKIYHHL3VOYX7A/"
+  },
+  {
+   "id": "bruzz-2026-11-16",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Bruzz",
+   "titre": "Koning vraagt aan premier De Wever om onderhandelingen voort te zetten",
+   "date": "16 novembre 2026",
+   "url": "https://www.bruzz.be/actua/politiek/enkel-vooruit-het-niet-eens-met-begroting-de-wever-moet-zonder-akkoord-naar-de-koning-2026-11-16"
+  },
+  {
+   "id": "bx1-2026-11-15",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "BX1 (Belga)",
+   "titre": "Pas d'accord sur le budget fédéral, Bart De Wever attendu chez le Roi à 11h30",
+   "date": "15 novembre 2026",
+   "url": "https://bx1.be/?p=841449"
+  },
+  {
+   "id": "lavenir-2026-11-16",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "L'Avenir",
+   "titre": "Crise politique : Bart De Wever va-t-il présenter un budget au Roi le 23 novembre, jour de manifestation nationale ?",
+   "date": "16 novembre 2026",
+   "url": "https://www.lavenir.net/actu/belgique/politique/2026/11/16/un-accord-pour-le-jour-de-manifestation-L2ZM3MLEFVHQLB5FBJ656F3BOI/"
+  },
+  {
+   "id": "businessam-2026-11-16",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Business AM",
+   "titre": "La crise budgétaire perdure : le roi autorise De Wever à poursuivre les négociations",
+   "date": "16 novembre 2026",
+   "url": "https://fr.businessam.be/la-crise-budgetaire-perdure-le-roi-autorise-de-wever-a-poursuivre-les-negociations"
+  },
+  {
+   "id": "dh-2026-11-16",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH (Belga)",
+   "titre": "Crise gouvernementale : l'opposition pas tendre avec l'Arizona",
+   "date": "16 novembre 2026",
+   "url": "https://www.dhnet.be/dernieres-depeches/2026/11/16/crise-gouvernementale-lopposition-pas-tendre-avec-larizona-5YOCGGOT5ZBDPBQ5AGBOSW2NBM/"
+  },
+  {
+   "id": "brusselstimes-2026-11-15",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "The Brussels Times",
+   "titre": "De Wever to meet King as parties fail again to agree Belgian budget",
+   "date": "15 novembre 2026",
+   "url": "https://www.brusselstimes.com/2408433/de-wever-to-meet-king-as-parties-fail-again-to-agree-belgian-budget-tbtb"
+  },
+  {
+   "id": "parismatch-2026-11-06",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Paris Match Belgique",
+   "titre": "Le roi Philippe a refusé la démission de Bart De Wever",
+   "date": "6 novembre 2026",
+   "url": "https://www.parismatch.be/actualites/politique/2026/11/06/le-roi-a-refuse-la-demission-de-bart-de-wever-IPPE6LHZGFCVHI44PQL3YGXC6E/",
+   "note": "Reproduit des extraits du communiqué du Palais."
+  },
+  {
+   "id": "euronews-2026-11-06",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Euronews",
+   "titre": "Belgique : le roi refuse la démission du Premier ministre et demande de reprendre les négociations budgétaires",
+   "date": "6 novembre 2026",
+   "url": "https://fr.euronews.com/2026/11/06/belgique-le-roi-refuse-la-demission-du-premier-ministre-et-demande-de-reprendre-les-negoci"
+  },
+  {
+   "id": "parismatch-2026-11-04",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Paris Match Belgique",
+   "titre": "« J'ai dit au Roi que nous voulons un accord » : Conner Rousseau et Georges-Louis Bouchez reçus par le souverain",
+   "date": "4 novembre 2026",
+   "url": "https://www.parismatch.be/actualites/politique/2026/11/04/jai-dit-au-roi-que-nous-voulons-un-accord-conner-rousseau-et-george-louis-bouchez-recus-par-le-souverain-ML7JLDRABRAUVAUAZWJAFKU2ZQ/"
+  },
+  {
+   "id": "rtbf-2026-11-02",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "RTBF",
+   "titre": "L'Arizona au pied du mur : la démission de Bart De Wever en suspens, le Roi entame ses entrevues ce mardi",
+   "date": "2 novembre 2026",
+   "url": "https://www.rtbf.be/article/direct-crise-dans-le-gouvernement-arizona-bart-de-wever-a-remis-sa-demission-au-roi-qui-reserve-sa-decision-et-convoque-les-presidents-de-parti-11809122"
+  },
+  {
+   "id": "lavenir-2026-11-02",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "L'Avenir",
+   "titre": "L'Arizona en crise, entre paradoxe et dramatisation : « Ce sont eux qui ont le vrai pouvoir »",
+   "date": "2 novembre 2026",
+   "url": "https://www.lavenir.net/actu/belgique/politique/2026/11/02/larizona-en-crise-entre-paradoxe-et-dramatisation-ce-sont-eux-qui-ont-le-vrai-pouvoir-BGW6NX4YYRH33G7TNUAP4UWLWU/"
+  },
+  {
+   "id": "lalibre-2026-11-02",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Bart De Wever a remis sa démission au Roi pour la troisième fois déjà : retour sur deux ans et demi d'instabilité politique",
+   "date": "2 novembre 2026",
+   "url": "https://www.lalibre.be/belgique/politique-belge/2026/11/02/bart-de-wever-a-remis-sa-demission-au-roi-pour-la-troisieme-fois-deja-retour-sur-deux-ans-et-demi-dinstabilite-politique-TVTNPLZYARDBHA4JYYGJQAZX2U/"
+  },
+  {
+   "id": "bx1-2026-11-02",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "BX1",
+   "titre": "« Un gouvernement qui protège les grandes fortunes » : l'opposition fustige l'aveu d'échec sur le budget fédéral",
+   "date": "2 novembre 2026",
+   "url": "https://bx1.be/?p=838821"
+  },
+  {
+   "id": "dh-2026-10-23",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH",
+   "titre": "Pas de vacances pour les négociateurs de l'Arizona : Frank Vandenbroucke fait son Bouchez",
+   "date": "23 octobre 2026",
+   "url": "https://www.dhnet.be/actu/belgique/2026/10/23/pas-de-vacances-pour-les-negociateurs-de-larizona-frank-vandenbroucke-fait-son-bouchez-mais-tout-le-monde-prevoit-de-se-revoir-pendant-les-conges-7N2XPYSDIBFLLCIEMOODKXZUAY/"
+  },
+  {
+   "id": "lavenir-2026-10-25",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "L'Avenir",
+   "titre": "Budget fédéral : déçu par Vooruit, Sammy Mahdi espère une réunion rapide du gouvernement",
+   "date": "25 octobre 2026",
+   "url": "https://www.lavenir.net/actu/belgique/politique/2026/10/25/budget-federal-decu-par-vooruit-sammy-mahdi-espere-une-reunion-rapide-du-gouvernement-E356REIB3ZERJF2ZIONDLEHCSU/"
+  },
+  {
+   "id": "vrt-fr-2026-10-15",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS (en français, Belga)",
+   "titre": "Budget fédéral : De Wever abandonne la réforme de la TVA et se concentre dans un premier temps sur l'exercice 2027",
+   "date": "15 octobre 2026",
+   "url": "https://www.vrt.be/vrtnws/fr/2026/10/15/budget-federal-de-wever-abandonne-la-reforme-de-la-tva-et-se-c/"
+  },
+  {
+   "id": "rtbf-henne-2026-10-15",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "auteur": "Bertrand Henne",
+   "media": "RTBF (chronique)",
+   "titre": "De Wever is de nieuwe De Croo ?",
+   "date": "15 octobre 2026",
+   "url": "https://www.rtbf.be/article/11800482",
+   "note": "Chronique d'opinion qui lit l'épisode de la TVA comme un jeu de la poule mouillée."
+  },
+  {
+   "id": "parismatch-2026-10-11",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Paris Match Belgique (Belga)",
+   "titre": "Budget fédéral : le kern s'est terminé sans accord, le blocage persiste sur la TVA",
+   "date": "11 octobre 2026",
+   "url": "https://www.parismatch.be/actualites/politique/2026/10/11/budget-federal-le-kern-sest-termine-sans-accord-le-blocage-persiste-sur-la-tva-OI4MOLYS3JFDTFHU4KAUHX45NU/"
+  },
+  {
+   "id": "belga-prevot-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Belga News Agency",
+   "titre": "Budget must strike balance between cuts and new revenue, says Prévot",
+   "date": "octobre 2026",
+   "url": "https://www.belganewsagency.eu/budget-must-strike-balance-between-cuts-and-new-revenue-says-prevot"
+  },
+  {
+   "id": "lalibre-tva-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Pourquoi il est si délicat de toucher à la TVA en Belgique",
+   "date": "octobre 2026",
+   "url": "https://www.lalibre.be/belgique/politique-belge/pourquoi-il-est-si-delicat-de-toucher-a-la-tva-en-belgique-5BPHPYWXLBG2FA5Z2GLZC3IWPI/"
+  },
+  {
+   "id": "dh-2026-09-06",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH (Belga)",
+   "titre": "Le MR prêt à une longue bataille sur le budget, avec une ligne rouge sur la TVA",
+   "date": "6 septembre 2026",
+   "url": "https://www.dhnet.be/dernieres-depeches/2026/09/06/le-mr-pret-a-une-longue-bataille-sur-le-budget-avec-une-ligne-rouge-sur-la-tva-OALVEOYOLJBEHJIHMLYJGZVF4A/"
+  },
+  {
+   "id": "dh-2026-09-09",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH",
+   "titre": "Quel parti aurait réellement intérêt à voir le gouvernement De Wever tomber ?",
+   "date": "9 septembre 2026",
+   "url": "https://www.dhnet.be/actu/belgique/2026/09/09/quel-parti-aurait-reellement-interet-a-voir-le-gouvernement-de-wever-tomber-BPIF5NKWCZGWRJ7R56GWRHXSG4/"
+  },
+  {
+   "id": "dh-2026-09-21",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH",
+   "titre": "Coup de froid dans l'Arizona à l'amorce des négociations budgétaires",
+   "date": "21 septembre 2026",
+   "url": "https://www.dhnet.be/actu/belgique/2026-09-21/coup-de-froid-dans-arizona-a-lamorce-des-negociations-budgetaires-on-se-demande-si-bart-de-wever-envie-daboutir-3DV3RIRDZZG7HOSE73MOIYXSO4/"
+  },
+  {
+   "id": "lavenir-2026-09-18",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "L'Avenir",
+   "titre": "Intentions de vote en Belgique : le PS premier parti en Wallonie, le PTB proche du MR et le Vlaams Belang le plus populaire en Flandre",
+   "date": "18 septembre 2026",
+   "url": "https://www.lavenir.net/actu/belgique/politique/2026/09/18/intentions-de-vote-en-belgique-le-ps-premier-parti-en-wallonie-le-ptb-proche-du-mr-et-le-vlaams-belang-le-plus-populaire-en-flandre-FCEFZN3STRCA5OMN7RW6VVHZ6M/"
+  },
+  {
+   "id": "rtbf-2025-11-24",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "RTBF",
+   "titre": "Bart De Wever réagit à l'accord budgétaire : « Je n'ai même pas pensé aux trois jours de grève »",
+   "date": "24 novembre 2025",
+   "url": "https://www.rtbf.be/article/bart-de-wever-reagit-a-l-accord-budgetaire-je-n-ai-meme-pas-pense-aux-trois-jours-de-greve-11636632"
+  },
+  {
+   "id": "bruzz-2025-11-24",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Bruzz",
+   "titre": "Kernkabinet heeft akkoord over federale begroting beet",
+   "date": "24 novembre 2025",
+   "url": "https://www.bruzz.be/actua/politiek/kernkabinet-heeft-akkoord-over-federale-begroting-beet-2025-11-24"
+  },
+  {
+   "id": "parismatch-2025-11-24",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Paris Match Belgique",
+   "titre": "Le gouvernement fédéral a conclu un accord sur le budget : voici ce qu'il contient",
+   "date": "24 novembre 2025",
+   "url": "https://www.parismatch.be/actualites/politique/2025/11/24/le-gouvernement-federal-a-conclu-un-accord-sur-le-budget-VKN3HPD7TFE5XNB2P7AFSFFC4E/"
+  },
+  {
+   "id": "bx1-2025-11-06",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "BX1",
+   "titre": "Budget fédéral : Bart De Wever a cinquante jours, pas plus, pour conclure un accord",
+   "date": "6 novembre 2025",
+   "url": "https://bx1.be/?p=783787"
+  },
+  {
+   "id": "lavenir-moodys-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "L'Avenir",
+   "titre": "L'agence de notation financière Moody's dégrade la note financière de la Belgique",
+   "date": "17 avril 2026",
+   "url": "https://www.lavenir.net/actu/belgique/2026/04/17/lagence-de-notation-financiere-moodys-degrade-la-note-financiere-de-la-belgique-des-efforts-supplementaires-sont-necessaires-OKYCHG4D6ZDPVKZUYPVG2L6L7A/"
+  },
+  {
+   "id": "lalibre-sp-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Une nouvelle piqûre de rappel pour le gouvernement De Wever : Standard & Poor's dégrade à son tour la note de la dette belge",
+   "date": "24 avril 2026",
+   "url": "https://www.lalibre.be/economie/conjoncture/2026/04/24/une-nouvelle-piqure-de-rappel-pour-le-gouvernement-de-wever-lagence-americaine-standard-poors-degrade-a-son-tour-la-note-de-la-dette-belge-35XH4UPDVFG6VOJRYFDZYERPYM/"
+  },
+  {
+   "id": "belga-sp-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Belga News Agency",
+   "titre": "Lower rating by S&P is latest in series of bad news about Belgian budget",
+   "date": "avril 2026",
+   "url": "https://www.belganewsagency.eu/lower-rating-by-sp-is-latest-in-series-of-bad-news-about-belgian-budget",
+   "note": "Mentionne aussi le déficit 2025 publié par Eurostat (5,2 % du PIB, le plus élevé de la zone euro)."
+  },
+  {
+   "id": "belga-fitch-2025",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Belga News Agency",
+   "titre": "Belgian PM stresses urgency of planned reforms after rating downgrade",
+   "date": "juin 2025",
+   "url": "https://www.belganewsagency.eu/belgian-pm-stresses-urgency-planned-reforms-after-rating-downgrade"
+  },
+  {
+   "id": "belga-ce-printemps",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Belga News Agency",
+   "titre": "EU warns Belgium will remain eurozone's worst budget performer as deficit stays high",
+   "date": "mai 2026",
+   "url": "https://www.belganewsagency.eu/eu-warns-belgium-will-remain-eurozones-worst-budget-performer-as-deficit-stays-high"
+  },
+  {
+   "id": "generali-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Generali Asset Management (note de marché)",
+   "titre": "Belgium: Muted downgrade impact, but fiscal challenges persist over the longer term",
+   "date": "8 mai 2026",
+   "url": "https://www.generali.com/doc/jcr:ffff2327-82a9-4901-8c40-5c2a8b368327/Belgium_downgrade_OLO_05_2026.pdf/lang:en/Belgium_downgrade_OLO_05_2026.pdf"
+  },
+  {
+   "id": "vrt-demaegd-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS",
+   "titre": "Na aanvaringen met Bouchez: MR-Kamerlid Michel De Maegd stapt over naar Les Engagés",
+   "date": "6 janvier 2026",
+   "url": "https://www.vrt.be/vrtnws/nl/2026/01/06/kamerlid-michel-de-maegd-ruilt-de-mr-in-voor-les-engages/"
+  },
+  {
+   "id": "bx1-demaegd-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "BX1",
+   "titre": "Michel De Maegd quitte le MR et rejoint Les Engagés",
+   "date": "6 janvier 2026",
+   "url": "https://bx1.be/?p=792185"
+  },
+  {
+   "id": "lalibre-anders-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "L'Open VLD change de nom et devient « Anders »",
+   "date": "19 janvier 2026",
+   "url": "https://www.lalibre.be/belgique/politique-belge/2026/01/19/lopen-vld-change-de-nom-et-devient-anders-OI4T6JSZGRE3XMZKGCBHKWYA7I/"
+  },
+  {
+   "id": "vrt-vanpeel-2025",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS",
+   "titre": "Na 20 jaar Bart De Wever: Valerie Van Peel met 96 procent van de stemmen verkozen tot nieuwe voorzitter van N-VA",
+   "date": "26 avril 2025",
+   "url": "https://www.vrt.be/vrtnws/nl/2025/04/26/valerie-van-peel-nieuwe-voorzitter-n-va-portret/"
+  },
+  {
+   "id": "bx1-synova-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "BX1",
+   "titre": "Le syndicat libéral CGSLB devient le syndicat libre SYNOVA",
+   "date": "30 mai 2026",
+   "url": "https://bx1.be/?p=815689"
+  },
+  {
+   "id": "parismatch-2026-02-12",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Paris Match Belgique",
+   "titre": "Fumée blanche au conclave gouvernemental : un accord a été trouvé pour Bruxelles !",
+   "date": "12 février 2026",
+   "url": "https://www.parismatch.be/actualites/politique/2026/02/12/fumee-blanche-au-conclave-gouvernemental-un-accord-a-ete-trouve-pour-bruxelles-FZCK3AKABBAXDPPQ4BB25FRPYQ/"
+  },
+  {
+   "id": "brusselstimes-bxl-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "The Brussels Times",
+   "titre": "White smoke: Brussels finally has a new government",
+   "date": "12 février 2026",
+   "url": "https://www.brusselstimes.com/1968979/white-smoke-brussels-finally-has-a-new-government-tbtb"
+  },
+  {
+   "id": "bx1-cdv-bxl-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "BX1",
+   "titre": "Gouvernement bruxellois : les négociateurs néerlandophones satisfaits de l'accord",
+   "date": "février 2026",
+   "url": "https://bx1.be/?p=799001"
+  },
+  {
+   "id": "lalibre-2025-12-11",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Coalition de gauche à Bruxelles : Georges-Louis Bouchez a averti Bart De Wever de possibles conséquences au sein de l'Arizona contre Les Engagés",
+   "date": "11 décembre 2025",
+   "url": "https://www.lalibre.be/belgique/politique-belge/2025/12/11/coalition-de-gauche-a-bruxelles-georges-louis-bouchez-a-averti-bart-de-wever-de-possibles-consequences-au-sein-de-larizona-contre-les-engages-UCIUSRSU5ZCTLOLGVLAWMI2CYM/"
+  },
+  {
+   "id": "bx1-2024-11-04",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "BX1",
+   "titre": "Formation fédérale : De Wever remet sa démission, le Roi tient sa décision en délibéré jusqu'au 12 novembre",
+   "date": "4 novembre 2024",
+   "url": "https://bx1.be/?p=713827"
+  },
+  {
+   "id": "dh-2024-11-04-alternatives",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH",
+   "titre": "Si l'Arizona capote, voici les coalitions alternatives (mais peu crédibles) qui pourraient la remplacer",
+   "date": "4 novembre 2024",
+   "url": "https://www.dhnet.be/actu/belgique/2024/11/04/si-larizona-capote-voici-les-coalitions-alternatives-mais-peu-credibles-qui-pourraient-la-remplacer-43A52X6HT5BMNPKI4EOESAXHOM/"
+  },
+  {
+   "id": "dh-2024-11-04-salle",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH",
+   "titre": "Échec des négociations fédérales : « Bart De Wever a demandé à Conner Rousseau de quitter la salle »",
+   "date": "4 novembre 2024",
+   "url": "https://www.dhnet.be/actu/belgique/2024/11/04/echec-des-negociations-federales-bart-de-wever-a-demande-a-conner-rousseau-de-quitter-la-salle-ALEQ3EUPXBGQJFPYOAGV3X6C4Y/"
+  },
+  {
+   "id": "brf-magnette-2024",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "BRF Nachrichten",
+   "titre": "Paul Magnette exclut que le PS serve de dépanneur à l'Arizona (d'après De Tijd)",
+   "date": "novembre 2024",
+   "url": "https://brf.be/national/1912371"
+  },
+  {
+   "id": "vrt-fr-2025-02-07",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "VRT NWS (en français)",
+   "titre": "Au terme de 40 heures de débat, la Chambre accorde sa confiance au gouvernement fédéral",
+   "date": "7 février 2025",
+   "url": "https://www.vrt.be/vrtnws/fr/2025/02/07/au-terme-de-40-heures-de-debat-la-chambre-accorde-sa-confiance/"
+  },
+  {
+   "id": "dh-2011-11-21",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH",
+   "titre": "Elio Di Rupo a présenté sa démission",
+   "date": "21 novembre 2011",
+   "url": "https://www.dhnet.be/actu/belgique/2011/11/21/elio-di-rupo-a-presente-sa-demission-5NHFD4JNGJE7NIHVK7RVQX3FMM/"
+  },
+  {
+   "id": "dh-2011-11-25",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La DH",
+   "titre": "Standard & Poor's abaisse la note de la Belgique de AA+ à AA",
+   "date": "25 novembre 2011",
+   "url": "https://www.dhnet.be/actu/belgique/2011/11/25/standard-poors-abaisse-la-note-de-la-belgique-de-aa-a-aa-SC6T7B6A4VEK5ARJDV3L5BNQUI/"
+  },
+  {
+   "id": "lalibre-2011-11-26",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Cinq semaines de discussions, un accord budgétaire et des réformes structurelles",
+   "date": "26 novembre 2011",
+   "url": "https://www.lalibre.be/actu/crise-politique/article/702482/un-accord-enfin.html"
+  },
+  {
+   "id": "lalibre-2018-12-09",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Gouvernement Michel : la Suédoise kamikaze aura mis plus de quatre ans à exploser",
+   "date": "9 décembre 2018",
+   "url": "https://www.lalibre.be/belgique/politique-belge/2018/12/09/gouvernement-michel-la-suedoise-kamikaze-aura-mis-plus-de-quatre-ans-a-exploser-MEBUPUO25BGU7EDEASQQO7HG4M/"
+  },
+  {
+   "id": "lalibre-2014-07-21",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique (opinion)",
+   "titre": "La « suédoise », porte de sortie d'un confédéralisme larvé ?",
+   "date": "21 juillet 2014",
+   "url": "https://www.lalibre.be/debats/opinions/2014/07/21/la-suedoise-porte-de-sortie-dun-confederalisme-larve-IFASZIYF2NFYJCIBAMHRLNN3WY/"
+  },
+  {
+   "id": "lalibre-2014-09-08",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Voici pourquoi Charles Michel veut devenir Premier ministre",
+   "date": "8 septembre 2014",
+   "url": "https://www.lalibre.be/belgique/politique-belge/2014/09/08/voici-pourquoi-charles-michel-veut-devenir-premier-ministre-F2V43EYGPZBLHHQFOFC74AIHTQ/"
+  },
+  {
+   "id": "rtbf-ceta-2016",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "RTBF",
+   "titre": "Le Parlement wallon confirme son opposition à la signature du CETA",
+   "date": "14 octobre 2016",
+   "url": "https://www.rtbf.be/article/le-parlement-wallon-confirme-son-opposition-a-la-signature-du-ceta-9429715"
+  },
+  {
+   "id": "lalibre-ceta-2016",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Qui est ressorti vainqueur du Ceta ?",
+   "date": "29 octobre 2016",
+   "url": "https://www.lalibre.be/belgique/politique-belge/2016/10/29/qui-est-ressorti-vainqueur-du-ceta-OMRABK62TJCV7IMPHZ2O2V2AYU/"
+  },
+  {
+   "id": "lavenir-ceta-2016",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "L'Avenir",
+   "titre": "La motion CETA votée : « Le “moment” de la Wallonie se termine »",
+   "date": "28 octobre 2016",
+   "url": "https://www.lavenir.net/actu/belgique/2016/10/28/la-motion-ceta-votee-le-moment-de-la-wallonie-se-termine-RLRDRF6TYZCB7IABDZAU5D4RAY/"
+  },
+  {
+   "id": "parismatch-2018-12-08",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Paris Match Belgique",
+   "titre": "La N-VA quitte le gouvernement, Charles Michel ira à Marrakech comme chef d'une coalition orange bleue",
+   "date": "8 décembre 2018",
+   "url": "https://www.parismatch.be/actualites/politique/2018/12/08/la-nv-a-quitte-le-gouvernement-charles-michel-ira-a-marrakech-comme-chef-dune-coalition-orange-bleue-XO5YZEIEJNGYVKKPAZN6OV7LGY/"
+  },
+  {
+   "id": "parismatch-2018-12-18",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "Paris Match Belgique",
+   "titre": "Charles Michel a présenté sa démission au Roi, « qui tient sa décision en suspens »",
+   "date": "18 décembre 2018",
+   "url": "https://www.parismatch.be/actualites/politique/2018/12/18/charles-michel-a-presente-sa-demission-au-roi-qui-tient-sa-decision-en-suspens-S7D3DDC26FAKNI774JZ5RXGJJ4/"
+  },
+  {
+   "id": "lalibre-bhv-2010",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "BHV, c'est quoi ce truc ?",
+   "date": "14 avril 2010",
+   "url": "https://www.lalibre.be/belgique/2010/04/14/bhv-cest-quoi-ce-truc-47UXORY6BZCSPN4ZF7P3SXQMEM/"
+  },
+  {
+   "id": "lalibre-sonnette-2010",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Sonner l'alarme, c'est l'hallali",
+   "date": "23 avril 2010",
+   "url": "https://www.lalibre.be/belgique/2010/04/23/sonner-lalarme-cest-lhallali-NBSA4RIWM5GIRPN5FHJFRIBLRU/"
+  },
+  {
+   "id": "lalibre-2007-11-09",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "La Libre Belgique",
+   "titre": "Les petites manœuvres orange bleues",
+   "date": "9 novembre 2007",
+   "url": "https://www.lalibre.be/belgique/2007/11/09/les-petites-manoeuvres-orange-bleues-PIEQWW6M7BBR3FDJTLEQ4GLX7A/"
+  },
+  {
+   "id": "cpcp-conflit",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "media": "CPCP (analyse)",
+   "titre": "La procédure en conflit d'intérêts et la sonnette d'alarme",
+   "date": "2008",
+   "url": "https://www.cpcp.be/wp-content/uploads/2019/07/procedure-conflit-interets.pdf"
+  },
+  {
+   "id": "wiki-formation-2024",
+   "categorie": "secondaire",
+   "fiabilite": "C",
+   "media": "Wikipedia (en anglais)",
+   "titre": "2024–2025 Belgian government formation",
+   "date": "consulté le 22 novembre 2026",
+   "url": "https://en.wikipedia.org/wiki/2024%E2%80%932025_Belgian_government_formation"
+  },
+  {
+   "id": "wiki-formation-2010",
+   "categorie": "secondaire",
+   "fiabilite": "C",
+   "media": "Wikipedia (en anglais)",
+   "titre": "2010–2011 Belgian government formation",
+   "date": "consulté le 22 novembre 2026",
+   "url": "https://en.wikipedia.org/wiki/2010%E2%80%932011_Belgian_government_formation"
+  },
+  {
+   "id": "wiki-formation-2019",
+   "categorie": "secondaire",
+   "fiabilite": "C",
+   "media": "Wikipedia (en anglais)",
+   "titre": "2019–2020 Belgian government formation",
+   "date": "consulté le 22 novembre 2026",
+   "url": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Belgian_government_formation"
+  },
+  {
+   "id": "wiki-pacte-scolaire",
+   "categorie": "secondaire",
+   "fiabilite": "C",
+   "media": "Wikipedia (en anglais)",
+   "titre": "School Pact",
+   "date": "consulté le 22 novembre 2026",
+   "url": "https://en.wikipedia.org/wiki/School_Pact"
+  },
+  {
+   "id": "wiki-sondages-2029",
+   "categorie": "secondaire",
+   "fiabilite": "C",
+   "media": "Wikipédia",
+   "titre": "Liste de sondages sur les élections belges de 2029",
+   "date": "consulté le 22 novembre 2026",
+   "url": "https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_les_%C3%A9lections_belges_de_2029"
+  },
+  {
+   "id": "wiki-dillies",
+   "categorie": "secondaire",
+   "fiabilite": "C",
+   "media": "Wikipedia (en anglais)",
+   "titre": "Dilliès government",
+   "date": "consulté le 22 novembre 2026",
+   "url": "https://en.wikipedia.org/wiki/Dilli%C3%A8s_government"
+  },
+  {
+   "id": "universalis-2018",
+   "categorie": "secondaire",
+   "fiabilite": "C",
+   "media": "Encyclopædia Universalis",
+   "titre": "3-21 décembre 2018 : Belgique, démission du gouvernement de Charles Michel",
+   "date": "",
+   "url": "https://www.universalis.fr/evenement/3-21-decembre-2018-demission-du-gouvernement-de-charles-michel/"
+  },
+  {
+   "id": "bruxellestoday-2026-06",
+   "categorie": "secondaire",
+   "fiabilite": "C",
+   "media": "BruxellesToday",
+   "titre": "À Bruxelles, le PTB séduit un électeur sur quatre. En Flandre, le Vlaams Belang dépasse l'N-VA",
+   "date": "juin 2026",
+   "url": "https://www.bruxellestoday.be/politique/ptb-mr-vlaams-belang-sondage-grand-barometre-bruxelles.html"
+  },
+  {
+   "id": "doc-md",
+   "categorie": "travail",
+   "fiabilite": "I",
+   "media": "Document de travail (Markdown)",
+   "titre": "Théorie des jeux appliquée à la crise budgétaire de la coalition Arizona (novembre 2026) : équilibres, leviers et limites",
+   "date": "état au 18 novembre 2026",
+   "url": "",
+   "note": "Synthèse non publiée, 64 références. Croisée ligne à ligne sur la page Vérification."
+  },
+  {
+   "id": "doc-docx",
+   "categorie": "travail",
+   "fiabilite": "I",
+   "media": "Document de travail (Word)",
+   "titre": "Théorie des jeux appliquée à la crise politique belge : équilibres et conclusions au 18 novembre 2026",
+   "date": "état au 18 novembre 2026",
+   "url": "",
+   "note": "Synthèse non publiée, 32 références dont trois renvoient à des fichiers internes ou à une adresse inconnue."
+  },
+  {
+   "id": "ecartee-mobilisation",
+   "categorie": "ecartee",
+   "fiabilite": "D",
+   "media": "ouaisfieu.github.io/mobilisation",
+   "titre": "Agenda · Mobilisation",
+   "date": "",
+   "url": "",
+   "note": "Citée par le document Markdown pour la manifestation du 23 novembre. Il s'agit d'un site du même éditeur que celui-ci : la citer serait circulaire. Remplacée par la presse (L'Avenir, VRT)."
+  },
+  {
+   "id": "ecartee-headtopics",
+   "categorie": "ecartee",
+   "fiabilite": "D",
+   "media": "be.headtopics.com",
+   "titre": "Urgence budgétaire : Bart De Wever doit débloquer la coalition Arizona avant lundi",
+   "date": "",
+   "url": "",
+   "note": "Agrégateur automatique sans signature ; la thèse d'un écart de « quelques dizaines de millions » n'est corroborée nulle part."
+  },
+  {
+   "id": "ecartee-zonebourse",
+   "categorie": "ecartee",
+   "fiabilite": "C",
+   "media": "zonebourse.com",
+   "titre": "Le gouvernement belge en crise après l'échec des négociations budgétaires",
+   "date": "",
+   "url": "",
+   "note": "Reprise de dépêche ; préférer la source d'origine (Belga, Reuters)."
+  },
+  {
+   "id": "ecartee-lemondemoderne",
+   "categorie": "ecartee",
+   "fiabilite": "C",
+   "media": "lemondemoderne.media",
+   "titre": "De Wever remet sa démission, le Roi tient sa décision en suspens",
+   "date": "",
+   "url": "",
+   "note": "Site peu identifiable ; les faits qu'il rapporte sont vérifiés ailleurs."
+  },
+  {
+   "id": "ecartee-unionbelge",
+   "categorie": "ecartee",
+   "fiabilite": "D",
+   "media": "unionbelge.be",
+   "titre": "Crise budgétaire : l'apprenti sorcier De Wever présente à nouveau sa démission au Roi",
+   "date": "",
+   "url": "",
+   "note": "Site militant ; ton polémique."
+  },
+  {
+   "id": "ecartee-21news",
+   "categorie": "ecartee",
+   "fiabilite": "C",
+   "media": "21news.be",
+   "titre": "Plusieurs articles cités par les deux documents de travail",
+   "date": "",
+   "url": "",
+   "note": "Site d'information à ligne éditoriale marquée ; utilisable pour repérer une déclaration, à recouper systématiquement."
+  },
+  {
+   "id": "ecartee-substack",
+   "categorie": "ecartee",
+   "fiabilite": "C",
+   "media": "drieu.substack.com",
+   "titre": "De Wever chez le roi : la comédie de la démission, la tragédie de la dette",
+   "date": "",
+   "url": "",
+   "note": "Billet d'opinion personnel."
+  },
+  {
+   "id": "ecartee-unknown",
+   "categorie": "ecartee",
+   "fiabilite": "D",
+   "media": "docs.google.com/unknown_url",
+   "titre": "Référence 7 du document Word",
+   "date": "",
+   "url": "",
+   "note": "Adresse inexistante : les calculs qu'elle est censée appuyer ont été refaits ici (page Arithmétique)."
+  },
+  {
+   "id": "ecartee-internes",
+   "categorie": "ecartee",
+   "fiabilite": "D",
+   "media": "Fichiers internes",
+   "titre": "« Crise de l'Arizona (novembre 2026)… .md » et « Tensions interpersonnelles en coalition Arizona.docx »",
+   "date": "",
+   "url": "",
+   "note": "Sources 1 et 2 du document Word : fichiers non publiés, impossibles à vérifier. Les affirmations qui n'en dépendent que sont marquées « non vérifié »."
+  },
+  {
+   "id": "ecartee-divers",
+   "categorie": "ecartee",
+   "fiabilite": "C",
+   "media": "Divers",
+   "titre": "luttedeclasse.org, YouTube, healthcare-executive.be, boursorama.com",
+   "date": "",
+   "url": "",
+   "note": "Sources 24, 25, 28 et 29 du document Word : hors sujet, opinion ou reprise de dépêche."
+  },
+  {
+   "id": "vrt-sonnette-2010",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "auteur": "",
+   "media": "VRT NWS (en français)",
+   "titre": "BHV : la sonnette d'alarme est tirée",
+   "date": "29 avril 2010",
+   "url": "https://www.vrt.be/vrtnws/fr/2010/04/29/bhv_la_sonnette_dalarmeesttiree-1-769954/",
+   "note": "Les quatre groupes francophones déposent une motion fondée sur l'article 54 de la Constitution pour empêcher le vote de la scission en séance plénière."
+  },
+  {
+   "id": "bx1-bxl-huit-mois",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "auteur": "",
+   "media": "BX1",
+   "titre": "Formation bruxelloise : retour sur huit mois de négociations sans succès",
+   "date": "2025",
+   "url": "https://bx1.be/?p=736733",
+   "note": "Répartition des 17 sièges néerlandophones et liste des vetos croisés au début de la formation."
+  },
+  {
+   "id": "bx1-bxl-accord-2026",
+   "categorie": "presse",
+   "fiabilite": "B",
+   "auteur": "",
+   "media": "BX1",
+   "titre": "Après 613 jours de blocage, la Région bruxelloise tient enfin un accord de gouvernement",
+   "date": "12 février 2026",
+   "url": "https://bx1.be/?p=798746",
+   "note": "Le déblocage suit la décision d'Anders de rejoindre les négociations sans la N-VA."
+  }
+ ]
+}

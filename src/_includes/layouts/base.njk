@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="{{ site.langue }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title and page.url != "/" %}{{ title }} | {% endif %}{{ site.titre }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="{{ title or site.titre }}">
+<meta property="og:description" content="{{ description or site.description }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_BE">
+<link rel="preload" href="/assets/fonts/spectral-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/archivo-wdth.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+{% if pagefindUI %}<link rel="stylesheet" href="/pagefind/pagefind-ui.css">{% endif %}
+</head>
+<body>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header class="entete">
+  <div class="enveloppe">
+    <a class="marque" href="/" aria-label="{{ site.titre }}, accueil">
+      <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><rect x="1" y="1" width="8.5" height="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="10.5" y="1" width="8.5" height="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="1" y="10.5" width="8.5" height="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="10.5" y="10.5" width="8.5" height="8.5" fill="#b97a10" stroke="#b97a10" stroke-width="1.6"/></svg>
+      {{ site.titre }}
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <ul>
+        {%- for item in nav %}
+        <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% elif page.url.startsWith(item.url) and item.url != "/" %} class="actif"{% endif %}>{{ item.titre }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    <details class="nav-mobile">
+      <summary>Menu</summary>
+      <ul>
+        {%- for item in nav %}
+        <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.titre }}</a></li>
+        {%- endfor %}
+      </ul>
+    </details>
+  </div>
+</header>
+<main id="contenu">
+  <div class="enveloppe">
+{{ content | safe }}
+  </div>
+</main>
+<footer class="pied">
+  <div class="enveloppe">
+    <div>
+      <h2>{{ site.titre }}</h2>
+      <p>{{ site.sousTitre }}. État des connaissances au {{ site.etatTexte }}. La situation évolue : vérifiez toujours la date des informations.</p>
+      <p>Site publié anonymement, sans traceur ni ressource externe. Recherche et rédaction réalisées avec l'aide d'une intelligence artificielle (Claude, d'Anthropic) sous direction humaine : voir la <a href="/methode/">page Méthode</a>.</p>
+    </div>
+    <div>
+      <h2>Comprendre</h2>
+      <ul>
+        <li><a href="/crise/">La crise</a></li>
+        <li><a href="/modeles/">Les modèles</a></li>
+        <li><a href="/histoire/">Les précédents</a></li>
+        <li><a href="/glossaire/">Glossaire</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Vérifier</h2>
+      <ul>
+        <li><a href="/verification/">Vérification croisée</a></li>
+        <li><a href="/sources/">Sources et fiabilité</a></li>
+        <li><a href="{{ site.depot }}">Code et données</a></li>
+        <li><a href="{{ site.depot }}/issues">Signaler une erreur</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+{% for s in scriptsClassiques %}<script src="{{ s }}"></script>
+{% endfor %}{% for s in scripts %}<script type="module" src="{{ s }}"></script>
+{% endfor %}
+</body>
+</html>

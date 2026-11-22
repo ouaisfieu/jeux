@@ -1,0 +1,57 @@
+---
+layout: layouts/page.njk
+title: Chronologie
+description: Chronologie filtrable de la crise budgétaire de l'Arizona et de ses précédents, de 1958 au 23 novembre 2026, avec les sources de chaque événement.
+chapeau: "De 1958 au 23 novembre 2026, les événements qui comptent pour comprendre la crise, chacun avec ses sources. Les points dorés marquent les tournants ; le pointillé, ce qui est annoncé mais pas encore advenu."
+scripts: ["/assets/js/chronologie.js"]
+---
+<form class="filtres" id="filtres-chrono" hidden aria-label="Filtrer la chronologie">
+  <fieldset>
+    <legend>Acteurs</legend>
+    <div class="puces">
+      {%- for a in chrono.acteurs %}
+      <label class="puce"><input type="checkbox" name="acteur" value="{{ a.id }}"><span>{{ a.nom }}</span></label>
+      {%- endfor %}
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Types d'événements</legend>
+    <div class="puces">
+      {%- for t in chrono.types %}
+      <label class="puce"><input type="checkbox" name="type" value="{{ t.id }}"><span>{{ t.nom }}</span></label>
+      {%- endfor %}
+    </div>
+  </fieldset>
+  <div class="filtres-ligne">
+    <label class="champ">Rechercher dans les textes<input type="search" name="q" autocomplete="off"></label>
+    <label class="puce"><input type="checkbox" name="majeurs"><span>Tournants seulement</span></label>
+    <button type="reset" class="bouton">Tout afficher</button>
+  </div>
+  <p class="compteur" id="compteur-chrono" aria-live="polite">{{ chrono.total }} événements</p>
+</form>
+
+{% for g in chrono.groupes %}
+<section class="chrono-groupe" aria-labelledby="{{ g.id }}">
+<h2 class="chrono-annee" id="{{ g.id }}">{{ g.titre }}</h2>
+<ol class="chrono">
+{%- for e in g.evenements %}
+  <li class="chrono-evt{% if e.majeur %} majeur{% endif %}{% if e.avenir %} avenir{% endif %}" data-acteurs="{{ e.acteurs | join(' ') }}" data-type="{{ e.type }}"{% if e.majeur %} data-majeur{% endif %}>
+    <div class="chrono-date"><time datetime="{{ e.date }}">{{ e.dateTexte }}</time></div>
+    <div class="chrono-corps">
+      <h3>{{ e.titre }}</h3>
+      <p>{{ e.texte }}</p>
+      <p class="chrono-meta">
+        <span>{{ e.typeNom }}{% if e.majeur %}, tournant{% endif %}{% if e.avenir %}, annoncé{% endif %}</span>
+        {% if e.acteursNoms.length %}<span>{{ e.acteursNoms | join(", ") }}</span>{% endif %}
+        <span>Sources : {% for id in e.sources %}{% set s = sourcesParId[id] %}{% if s.url %}<a href="{{ s.url }}">{{ s.media }}</a>{% else %}{{ s.media or s.titre }}{% endif %} <span class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }} (voir Méthode)">{{ s.fiabilite }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</span>
+      </p>
+    </div>
+  </li>
+{%- endfor %}
+</ol>
+</section>
+{% endfor %}
+
+<div class="encadre limite">
+<p>Les dates viennent des sources citées pour chaque événement. Pour les épisodes de novembre 2026, le direct de la VRT, horodaté, sert de référence principale ; quand deux sources divergent sur un détail, nous retenons la plus proche de l'événement et le signalons dans la page <a href="/verification/">Vérification</a>. Les lettres indiquent la fiabilité de chaque source, expliquée dans la page <a href="/methode/#l-echelle-de-fiabilite">Méthode</a>.</p>
+</div>

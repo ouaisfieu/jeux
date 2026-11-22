@@ -1,0 +1,12 @@
+[
+  { "titre": "La crise", "url": "/crise/" },
+  { "titre": "Chronologie", "url": "/chronologie/" },
+  { "titre": "Arithmétique", "url": "/arithmetique/" },
+  { "titre": "Modèles", "url": "/modeles/" },
+  { "titre": "Histoire", "url": "/histoire/" },
+  { "titre": "Outils", "url": "/outils/" },
+  { "titre": "Vérification", "url": "/verification/" },
+  { "titre": "Méthode", "url": "/methode/" },
+  { "titre": "Sources", "url": "/sources/" },
+  { "titre": "Recherche", "url": "/recherche/" }
+]

@@ -1,0 +1,76 @@
+---
+title: Simulateur de poule mouillée
+description: Un simulateur du jeu de la poule mouillée appliqué aux bras de fer de l'automne 2026, avec ses équilibres, le risque de collision et l'effet d'un engagement préalable.
+chapeau: Chaque camp classe quatre issues, de la victoire à la collision. Réglez ces valeurs et observez ce qui change, les équilibres, le risque de collision et l'avantage de celui qui s'engage le premier.
+scripts: ["/assets/js/poule.js"]
+---
+<h2 id="le-principe">Le principe</h2>
+<p>Deux camps choisissent de tenir ou de céder. Pour chacun, quatre issues sont possibles. Notez-les de 0 à 10, la valeur la plus haute désignant l'issue préférée. Le jeu n'est une <a href="/modeles/poule-mouillee/">poule mouillée</a> que si chaque camp préfère gagner au compromis, le compromis à perdre la face, et perdre la face à la collision. Si vous changez cet ordre, l'outil vous dira quel jeu vous avez créé.</p>
+
+<h2 id="l-outil">L'outil</h2>
+<div class="outil" id="outil-poule">
+<div class="outil-grille">
+<form class="reglages" id="form-poule" aria-label="Valeurs des issues pour chaque camp">
+  <div class="presets" role="group" aria-label="Préréglages">
+    <button type="button" class="bouton" data-preset="novembre">Novembre : Vooruit contre les quatre</button>
+    <button type="button" class="bouton" data-preset="octobre">Octobre : le MR contre la N-VA</button>
+    <button type="button" class="bouton" data-preset="couteuse">Collision très coûteuse</button>
+    <button type="button" class="bouton" data-preset="classique">Jeu classique</button>
+  </div>
+  {%- for camp in [{c: "a", nom: "Camp A", defaut: [9, 6, 3, 1]}, {c: "b", nom: "Camp B", defaut: [8, 6, 3, 1]}] %}
+  <fieldset class="camp">
+    <legend><span data-nom="{{ camp.c }}">{{ camp.nom }}</span></legend>
+    {%- for issue in [{k: "W", t: "Gagner", d: "tenir pendant que l'autre cède"}, {k: "C", t: "Compromis", d: "céder tous les deux"}, {k: "L", t: "Perdre la face", d: "céder pendant que l'autre tient"}, {k: "D", t: "Collision", d: "tenir tous les deux"}] %}
+    <div class="reglage">
+      <label for="{{ camp.c }}{{ issue.k }}"><span>{{ issue.t }} <span class="aide-inline">({{ issue.d }})</span></span><output id="{{ camp.c }}{{ issue.k }}-val" for="{{ camp.c }}{{ issue.k }}">{{ camp.defaut[loop.index0] }}</output></label>
+      <input type="range" id="{{ camp.c }}{{ issue.k }}" name="{{ camp.c }}{{ issue.k }}" min="0" max="10" step="1" value="{{ camp.defaut[loop.index0] }}">
+    </div>
+    {%- endfor %}
+  </fieldset>
+  {%- endfor %}
+  <fieldset class="camp">
+    <legend>Engagement préalable</legend>
+    <label class="radio"><input type="radio" name="engagement" value="aucun" checked> Personne ne s'engage</label>
+    <label class="radio"><input type="radio" name="engagement" value="a"> <span data-nom="a">Camp A</span> s'engage à tenir</label>
+    <label class="radio"><input type="radio" name="engagement" value="b"> <span data-nom="b">Camp B</span> s'engage à tenir</label>
+    <p class="aide">S'engager, c'est jouer en premier et de façon visible : l'autre camp choisit en sachant que vous ne céderez pas.</p>
+  </fieldset>
+</form>
+
+<div class="resultat" aria-live="polite">
+  <h3>La matrice</h3>
+  <div id="matrice-poule"><p class="noscript">Activez JavaScript pour utiliser le simulateur.</p></div>
+  <div id="types-poule" class="types-poule"></div>
+  <h3>Risque de collision</h3>
+  <p class="chiffre-cle" id="collision-poule">–</p>
+  <p class="chiffre-legende" id="collision-legende"></p>
+  <div class="lecture" id="lecture-poule"></div>
+  <p class="partager"><button type="button" class="bouton" id="copier-lien" hidden>Copier le lien vers ces réglages</button> <span id="copie-etat" class="note-outil" aria-live="polite"></span></p>
+</div>
+</div>
+</div>
+
+<h2 id="les-prereglages">Les préréglages</h2>
+<p>Les préréglages traduisent en chiffres une lecture possible des deux manches de l'automne. Ils ne mesurent rien : personne ne connaît les gains réels des partis. Ils servent à rendre une hypothèse explicite.</p>
+<ul>
+<li><strong>Novembre : Vooruit contre les quatre.</strong> Les deux camps ont l'ordre classique de la poule mouillée. Vooruit gagne un peu plus à l'emporter, les quatre un peu moins. Le risque de collision dans l'équilibre mixte est élevé, ce qui correspond à une situation où chacun ignore jusqu'où l'autre ira (voir <a href="/modeles/poule-mouillee/#novembre-vooruit-contre-les-quatre">la manche de novembre</a>).</li>
+<li><strong>Octobre : le MR contre la N-VA.</strong> Pour le MR, céder sur la TVA après en avoir fait une ligne rouge publique coûte plus cher que la collision. Tenir devient sa meilleure stratégie quoi que fasse l'autre, et le Premier ministre a intérêt à céder. C'est ce qui s'est passé le 15 octobre (voir <a href="/modeles/poule-mouillee/#octobre-le-mr-contre-la-n-va-sur-la-tva">la manche d'octobre</a>).</li>
+<li><strong>Collision très coûteuse.</strong> Les deux camps redoutent beaucoup la collision. Le risque qu'elle survienne chute, illustration de la leçon la plus robuste du modèle.</li>
+<li><strong>Jeu classique.</strong> Les valeurs 4, 3, 2 et 1 des manuels.</li>
+</ul>
+
+<h2 id="ce-que-l-outil-ne-dit-pas">Ce que l'outil ne dit pas</h2>
+<div class="encadre limite">
+<ul>
+<li><strong>Il fige le temps.</strong> Le jeu se joue en un coup. La crise réelle dure, et les coûts s'accumulent : c'est l'objet du <a href="/outils/guerre-usure/">simulateur de guerre d'usure</a>.</li>
+<li><strong>L'équilibre mixte est une abstraction.</strong> Personne ne tire à pile ou face. On le lit comme une incertitude sur la détermination de l'autre, et sa probabilité de collision comme un ordre de grandeur, pas une prévision.</li>
+<li><strong>Les valeurs sont subjectives.</strong> Changer un seul chiffre peut changer la nature du jeu. C'est la principale leçon de l'outil : la conclusion dépend entièrement de préférences qu'on ne peut pas observer.</li>
+</ul>
+</div>
+
+<script type="application/json" id="donnees-poule">{
+  "novembre": { "A": { "sujet": "Vooruit", "de": "de Vooruit", "pl": false }, "B": { "sujet": "les quatre", "de": "des quatre", "pl": true }, "a": [9, 6, 3, 1], "b": [8, 6, 3, 1] },
+  "octobre": { "A": { "sujet": "le MR", "de": "du MR", "pl": false }, "B": { "sujet": "la N-VA", "de": "de la N-VA", "pl": false }, "a": [9, 5, 1, 2], "b": [8, 6, 4, 0] },
+  "couteuse": { "A": { "sujet": "le camp A", "de": "du camp A", "pl": false }, "B": { "sujet": "le camp B", "de": "du camp B", "pl": false }, "a": [10, 8, 6, 0], "b": [10, 8, 6, 0] },
+  "classique": { "A": { "sujet": "le camp A", "de": "du camp A", "pl": false }, "B": { "sujet": "le camp B", "de": "du camp B", "pl": false }, "a": [4, 3, 2, 1], "b": [4, 3, 2, 1] }
+}</script>

@@ -1,0 +1,87 @@
+---
+layout: layouts/page.njk
+title: Vérification
+description: Le contrôle, affirmation par affirmation, des deux documents de travail à l'origine de ce site, arrêtés au 18 novembre 2026, avec les corrections apportées et les points restés non vérifiés.
+chapeau: "Ce site part de deux documents de travail arrêtés au 18 novembre 2026. Nous avons vérifié chacune de leurs affirmations importantes. Voici ce qui tient, ce qui a été corrigé, et ce que nous n'avons pas pu vérifier."
+scripts: ["/assets/js/verification.js"]
+---
+{%- set V = verification -%}
+{%- set ordreStatuts = ["corrige", "nuance", "non-verifie", "confirme"] -%}
+
+<h2 id="la-demarche">La démarche</h2>
+
+<p>Les deux documents croisés ici analysent la crise avec les outils de la théorie des jeux. Ils n'ont pas été publiés. Nous les traitons comme des documents de travail : des hypothèses à vérifier, pas des sources. Dans la page <a href="/sources/">Sources</a>, ils portent la mention « I », pour « interne ».</p>
+
+<p>Chaque affirmation factuelle a été confrontée d'abord aux sources primaires (Chambre, Constitution, Commission européenne), puis à la presse de référence, enfin aux sources secondaires. Quatre verdicts sont possibles :</p>
+<ul>
+{%- for s in V.statuts %}
+<li><span class="statut statut-{{ s.id }}">{{ s.nom }}</span> {{ s.description }}</li>
+{%- endfor %}
+</ul>
+
+<h2 id="le-bilan">Le bilan</h2>
+
+<div class="tableau">
+<table>
+<caption>Verdicts par document</caption>
+<thead><tr><th scope="col">Document</th>{% for id in ordreStatuts %}{% for s in V.statuts %}{% if s.id == id %}<th scope="col" class="n">{{ s.nom }}</th>{% endif %}{% endfor %}{% endfor %}<th scope="col" class="n">Total</th></tr></thead>
+<tbody>
+{%- for d in V.documents %}
+{%- set pts = V.points | where("doc", d.id) %}
+<tr><td>{{ d.nom }}<span class="petit"> (état au {{ d.etat }})</span></td>{% for id in ordreStatuts %}<td class="n">{{ (pts | where("statut", id)).length }}</td>{% endfor %}<td class="n">{{ pts.length }}</td></tr>
+{%- endfor %}
+<tr class="total"><td>Ensemble</td>{% for id in ordreStatuts %}<td class="n">{{ (V.points | where("statut", id)).length }}</td>{% endfor %}<td class="n">{{ V.points.length }}</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Les deux documents sont solides sur la littérature et sur la chronologie générale. Leurs erreurs se concentrent sur l'arithmétique parlementaire et sur quelques sources de faible fiabilité. Les erreurs d'arithmétique ont deux causes : Alexia Bertrand, élue sur la liste MR, siège dans le groupe Open VLD devenu Anders, et Michel De Maegd est passé du MR aux Engagés en janvier 2026.</p>
+
+<h2 id="les-corrections-qui-changent-l-analyse">Les corrections qui changent l'analyse</h2>
+
+<ol class="corrections">
+<li><strong>L'Arizona compte 80 sièges, pas 81.</strong> Le MR en a 18 et non 20, Les Engagés 15 et non 14 : Alexia Bertrand, élue sur la liste MR, siège dans le groupe Open VLD devenu Anders, et Michel De Maegd est passé du MR aux Engagés en janvier 2026. La coalition compte 47 néerlandophones sur 90 et 33 francophones sur 60, et non 34 (voir <a href="/arithmetique/">Arithmétique</a>).</li>
+<li><strong>Le MR est remplaçable sur le papier.</strong> L'un des documents écrivait que remplacer le MR par le PS ne donnerait pas de majorité francophone. Avec les chiffres corrigés, cette coalition compterait 78 sièges et 31 francophones sur 60, soit exactement la majorité. Ce qui protège le MR, c'est le refus du PS, pas l'arithmétique.</li>
+<li><strong>La clé de voûte est la N-VA.</strong> L'un des documents désignait Vooruit et le MR comme les partenaires les plus difficiles à remplacer. Avec le cordon sanitaire et la double majorité, c'est la N-VA qui est indispensable : sans elle, aucune majorité néerlandophone n'est possible sans le PVDA. L'asymétrie que décrivait le document est politique, pas arithmétique.</li>
+<li><strong>La double majorité est une convention fragile.</strong> Les documents en faisaient un renfort de chaque veto. C'est une pratique, non une règle juridique, et elle a été enfreinte de 2008 à 2014, de 2014 à 2018 et de 2020 à 2024. Elle pèse, sans être absolue.</li>
+<li><strong>Une source circulaire a été écartée.</strong> L'un des documents citait, pour la manifestation du 23 novembre, l'agenda d'un site de mobilisation publié par le même compte que ce site. Nous l'avons remplacé par des sources de presse (voir <a href="/methode/#qui-ecrit-ce-site">Méthode</a>).</li>
+</ol>
+
+<h2 id="toutes-les-affirmations">Toutes les affirmations</h2>
+
+<form class="filtres" id="filtres-verif" hidden aria-label="Filtrer les affirmations">
+  <fieldset>
+    <legend>Afficher</legend>
+    <div class="puces">
+      {%- for id in ordreStatuts %}{% for s in V.statuts %}{% if s.id == id %}
+      <label class="puce"><input type="checkbox" name="statut" value="{{ s.id }}" checked><span>{{ s.nom }}</span></label>
+      {%- endif %}{% endfor %}{% endfor %}
+    </div>
+  </fieldset>
+  <p class="compteur" id="compteur-verif" aria-live="polite"></p>
+</form>
+
+{%- for d in V.documents %}
+<section class="verif-doc" aria-labelledby="doc-{{ d.id }}">
+<h3 id="doc-{{ d.id }}">{{ d.nom }} : « {{ d.titre }} »</h3>
+{%- for id in ordreStatuts %}
+{%- for p in V.points | where("doc", d.id) | where("statut", id) %}
+<article class="verif" data-statut="{{ p.statut }}">
+  <p class="verif-tete">{% for s in V.statuts %}{% if s.id == p.statut %}<span class="statut statut-{{ s.id }}">{{ s.nom }}</span>{% endif %}{% endfor %}<span>{{ p.theme }}</span></p>
+  <p class="verif-affirmation">{{ p.affirmation }}</p>
+  <p class="verif-verdict">{{ p.verdict }}</p>
+  {% if p.sources.length %}<p class="verif-sources">Sources : {% for id in p.sources %}{% set s = sourcesParId[id] %}{% if s.url %}<a href="{{ s.url }}">{{ s.media or s.titre }}</a>{% else %}{{ s.auteur or s.media or s.titre }}{% endif %} <span class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }}">{{ s.fiabilite }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+</article>
+{%- endfor %}
+{%- endfor %}
+</section>
+{%- endfor %}
+
+<h2 id="ce-que-nous-n-avons-pas-pu-verifier">Ce que nous n'avons pas pu vérifier</h2>
+
+<p>Les points suivants ne sont pas repris comme des faits sur ce site. Certains sont plausibles ; aucun n'a pu être rattaché à une source indépendante accessible.</p>
+<ul>
+{%- for p in V.points | where("statut", "non-verifie") %}
+<li>{{ p.affirmation }}</li>
+{%- endfor %}
+</ul>

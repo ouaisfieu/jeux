@@ -1,0 +1,68 @@
+---
+title: Simulateur de marchandage
+description: Un simulateur du marchandage de Rubinstein avec options extérieures, appliqué à l'écart entre le tableau du 15 novembre et les demandes de Vooruit.
+chapeau: "Entre 1,2 et 1,5 milliard demandés aux plus fortunés, où se fixe le compromis ? Le modèle de Rubinstein répond : cela dépend de la patience de chacun, de qui propose en premier, et des solutions de repli, à condition qu'elles soient crédibles."
+scripts: ["/assets/js/marchandage.js"]
+---
+<h2 id="le-principe">Le principe</h2>
+<p>Deux camps se partagent un écart. Ils font des offres à tour de rôle ; chaque refus retarde l'accord, et le retard coûte. La <strong>patience</strong> mesure ce que vaut pour chacun un accord retardé d'un tour : 0,95 signifie qu'il ne perd que 5 % à attendre. Le modèle d'Ariel Rubinstein donne alors un partage unique, conclu dès la première offre (voir <a href="/modeles/marchandage/">Le marchandage</a>).</p>
+<p>Chaque camp peut aussi disposer d'une <strong>option extérieure</strong> : ce qu'il obtiendrait en quittant la table, exprimé en part de l'écart. Selon le principe établi par Binmore, Shaked et Sutton, une option ne change le partage que si elle vaut plus que ce que le camp obtiendrait sans elle.</p>
+
+<h2 id="l-outil">L'outil</h2>
+<div class="outil" id="outil-marchandage">
+<div class="outil-grille">
+<form class="reglages" id="form-marchandage" aria-label="Paramètres du marchandage">
+  <div class="presets" role="group" aria-label="Préréglages">
+    <button type="button" class="bouton" data-preset="epaules">Épaules les plus larges</button>
+    <button type="button" class="bouton" data-preset="sante">Économies en soins de santé</button>
+    <button type="button" class="bouton" data-preset="option">Vooruit a une porte de sortie</button>
+    <button type="button" class="bouton" data-preset="symetrique">Camps symétriques</button>
+  </div>
+  <input type="hidden" name="enjeu" value="epaules">
+  <fieldset class="camp">
+    <legend>Patience</legend>
+    <div class="reglage"><label for="dV"><span>Vooruit</span><output id="dV-val" for="dV">0,92</output></label><input type="range" id="dV" name="dV" min="0.5" max="0.99" step="0.01" value="0.92"></div>
+    <div class="reglage"><label for="dQ"><span>Les quatre</span><output id="dQ-val" for="dQ">0,90</output></label><input type="range" id="dQ" name="dQ" min="0.5" max="0.99" step="0.01" value="0.9">
+      <p class="aide">Par défaut, Vooruit est un peu plus patient : son président a dit que les douzièmes « ne sont pas la fin du monde », alors que le Premier ministre porte l'objectif budgétaire.</p></div>
+  </fieldset>
+  <fieldset class="camp">
+    <legend>Qui propose en premier</legend>
+    <label class="radio"><input type="radio" name="prem" value="quatre" checked> Les quatre (le tableau du Premier ministre)</label>
+    <label class="radio"><input type="radio" name="prem" value="vooruit"> Vooruit</label>
+  </fieldset>
+  <fieldset class="camp">
+    <legend>Options extérieures</legend>
+    <div class="reglage"><label for="oV"><span>Vooruit</span><output id="oV-val" for="oV">0 %</output></label><input type="range" id="oV" name="oV" min="0" max="0.8" step="0.05" value="0"></div>
+    <div class="reglage"><label for="oQ"><span>Les quatre</span><output id="oQ-val" for="oQ">0 %</output></label><input type="range" id="oQ" name="oQ" min="0" max="0.8" step="0.05" value="0">
+      <p class="aide">Part de l'écart que chaque camp pourrait obtenir en rompant. À 0, la rupture ne rapporte rien : c'est notre lecture de l'automne 2026 (voir <a href="/modeles/marchandage/#le-principe-de-l-option-exterieure">l'option extérieure</a>).</p></div>
+  </fieldset>
+</form>
+
+<div class="resultat" aria-live="polite">
+  <h3 id="titre-enjeu">Le partage</h3>
+  <p class="chiffre-cle" id="montant-marchandage">–</p>
+  <p class="chiffre-legende" id="legende-marchandage">Activez JavaScript pour utiliser le simulateur.</p>
+  <div id="barre-marchandage"></div>
+  <div id="comparaison-marchandage"></div>
+  <div class="lecture" id="lecture-marchandage"></div>
+  <p class="partager"><button type="button" class="bouton" id="copier-lien" hidden>Copier le lien vers ces réglages</button> <span id="copie-etat" class="note-outil" aria-live="polite"></span></p>
+</div>
+</div>
+</div>
+
+<h2 id="les-enjeux">Les enjeux</h2>
+<ul>
+<li><strong>Épaules les plus larges.</strong> Le tableau accepté par quatre partenaires le 15 novembre prévoit environ 1,2 milliard d'euros de contribution des plus aisés ; Vooruit en demande 1,5. L'écart est de 300 millions.</li>
+<li><strong>Économies en soins de santé.</strong> Vooruit demande environ 750 millions d'économies en moins, surtout dans les soins de santé. L'outil indique la part de ces 750 millions qui serait épargnée.</li>
+</ul>
+<p>Ces montants viennent de fuites de presse rapportées autour du 20 novembre et peuvent avoir évolué (voir <a href="/crise/#ce-qui-bloque">Ce qui bloque</a>).</p>
+
+<h2 id="ce-que-l-outil-ne-dit-pas">Ce que l'outil ne dit pas</h2>
+<div class="encadre limite">
+<ul>
+<li><strong>Les postes ne sont pas indépendants.</strong> L'outil traite un écart à la fois. Dans la négociation réelle, céder sur la contribution des plus aisés peut obliger à trouver ailleurs des recettes que le MR refuse.</li>
+<li><strong>La patience ne se mesure pas.</strong> Les valeurs par défaut traduisent une lecture des déclarations, pas une mesure. Faites-les varier : un centième de patience en plus ou en moins déplace sensiblement le partage.</li>
+<li><strong>Le modèle prédit un accord immédiat.</strong> Avec une information complète, il n'y a aucune raison d'attendre. Les retards réels viennent de ce que chacun ignore la patience de l'autre (voir le <a href="/outils/guerre-usure/">simulateur de guerre d'usure</a>).</li>
+<li><strong>Les symboles comptent.</strong> Un compromis à 1,35 milliard peut être inacceptable s'il s'appelle « taxe », et acceptable s'il s'appelle « contribution de solidarité ». Aucun modèle de partage ne capte cette dimension.</li>
+</ul>
+</div>

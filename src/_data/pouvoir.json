@@ -1,0 +1,2782 @@
+{
+ "meta": {
+  "total": 150,
+  "quota": 76,
+  "nl_total": 90,
+  "fr_total": 60,
+  "nl_quota": 46,
+  "fr_quota": 31,
+  "nl_hors_nva_vb_pvda": 40
+ },
+ "parties": [
+  {
+   "nom": "N-VA",
+   "sieges": 23,
+   "nl": 23,
+   "fr": 0,
+   "bloc": "arizona"
+  },
+  {
+   "nom": "Vlaams Belang",
+   "sieges": 20,
+   "nl": 20,
+   "fr": 0,
+   "bloc": "opposition"
+  },
+  {
+   "nom": "MR",
+   "sieges": 18,
+   "nl": 0,
+   "fr": 18,
+   "bloc": "arizona"
+  },
+  {
+   "nom": "PS",
+   "sieges": 16,
+   "nl": 0,
+   "fr": 16,
+   "bloc": "opposition"
+  },
+  {
+   "nom": "PVDA-PTB",
+   "sieges": 15,
+   "nl": 7,
+   "fr": 8,
+   "bloc": "opposition"
+  },
+  {
+   "nom": "Les Engagés",
+   "sieges": 15,
+   "nl": 0,
+   "fr": 15,
+   "bloc": "arizona"
+  },
+  {
+   "nom": "Vooruit",
+   "sieges": 13,
+   "nl": 13,
+   "fr": 0,
+   "bloc": "arizona"
+  },
+  {
+   "nom": "CD&V",
+   "sieges": 11,
+   "nl": 11,
+   "fr": 0,
+   "bloc": "arizona"
+  },
+  {
+   "nom": "Ecolo-Groen",
+   "sieges": 9,
+   "nl": 7,
+   "fr": 2,
+   "bloc": "opposition"
+  },
+  {
+   "nom": "Anders",
+   "sieges": 8,
+   "nl": 8,
+   "fr": 0,
+   "bloc": "opposition"
+  },
+  {
+   "nom": "DéFI",
+   "sieges": 1,
+   "nl": 0,
+   "fr": 1,
+   "bloc": "opposition"
+  },
+  {
+   "nom": "Dedecker (ind.)",
+   "sieges": 1,
+   "nl": 1,
+   "fr": 0,
+   "bloc": "independant"
+  }
+ ],
+ "jeux": {
+  "simple_tous": {
+   "joueurs": [
+    "N-VA",
+    "Vlaams Belang",
+    "MR",
+    "PS",
+    "PVDA-PTB",
+    "Les Engagés",
+    "Vooruit",
+    "CD&V",
+    "Ecolo-Groen",
+    "Anders",
+    "DéFI",
+    "Dedecker (ind.)"
+   ],
+   "shapley": [
+    0.16197691197691197,
+    0.13773448773448774,
+    0.1227994227994228,
+    0.1049062049062049,
+    0.09848484848484848,
+    0.09848484848484848,
+    0.0841991341991342,
+    0.06962481962481963,
+    0.05851370851370851,
+    0.0512987012987013,
+    0.005988455988455988,
+    0.005988455988455988
+   ],
+   "banzhaf": [
+    0.1606361829025845,
+    0.1363817097415507,
+    0.12127236580516898,
+    0.10497017892644135,
+    0.09860834990059641,
+    0.09860834990059641,
+    0.08508946322067594,
+    0.07037773359840954,
+    0.05924453280318091,
+    0.05208747514910537,
+    0.006361829025844931,
+    0.006361829025844931
+   ],
+   "n_gagnantes": 2016,
+   "n_mwc": 190,
+   "mwc_min_taille": 4,
+   "mwc": [
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "PS"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Les Engagés",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Les Engagés",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "DéFI"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "DéFI"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "DéFI"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen",
+     "DéFI"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen",
+     "DéFI"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "DéFI"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "CD&V",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Vooruit",
+     "CD&V",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Les Engagés",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "CD&V",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Vooruit",
+     "CD&V",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Ecolo-Groen",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "Les Engagés",
+     "Ecolo-Groen",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Vooruit",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "CD&V",
+     "Ecolo-Groen",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "MR",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ]
+   ]
+  },
+  "simple_gouvernable": {
+   "joueurs": [
+    "N-VA",
+    "MR",
+    "PS",
+    "Les Engagés",
+    "Vooruit",
+    "CD&V",
+    "Ecolo-Groen",
+    "Anders",
+    "DéFI",
+    "Dedecker (ind.)"
+   ],
+   "shapley": [
+    0.21349206349206348,
+    0.17063492063492064,
+    0.1376984126984127,
+    0.12420634920634921,
+    0.10476190476190476,
+    0.08968253968253968,
+    0.0761904761904762,
+    0.06507936507936508,
+    0.009126984126984128,
+    0.009126984126984128
+   ],
+   "banzhaf": [
+    0.2032828282828283,
+    0.16287878787878787,
+    0.14015151515151514,
+    0.13005050505050506,
+    0.10984848484848485,
+    0.09217171717171717,
+    0.07702020202020202,
+    0.06691919191919192,
+    0.008838383838383838,
+    0.008838383838383838
+   ],
+   "n_gagnantes": 209,
+   "n_mwc": 33,
+   "mwc_min_taille": 5,
+   "mwc": [
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ],
+    [
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders",
+     "DéFI",
+     "Dedecker (ind.)"
+    ]
+   ]
+  },
+  "double_gouvernable": {
+   "joueurs": [
+    "N-VA",
+    "MR",
+    "PS",
+    "Les Engagés",
+    "Vooruit",
+    "CD&V",
+    "Ecolo-Groen",
+    "Anders",
+    "DéFI",
+    "Dedecker (ind.)"
+   ],
+   "shapley": [
+    0.3380952380952381,
+    0.09047619047619047,
+    0.09047619047619047,
+    0.09047619047619047,
+    0.12380952380952381,
+    0.12380952380952381,
+    0.07142857142857142,
+    0.07142857142857142,
+    0.0,
+    0.0
+   ],
+   "banzhaf": [
+    0.2222222222222222,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.14814814814814814,
+    0.14814814814814814,
+    0.07407407407407407,
+    0.07407407407407407,
+    0.0,
+    0.0
+   ],
+   "n_gagnantes": 96,
+   "n_mwc": 9,
+   "mwc_min_taille": 5,
+   "mwc": [
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ]
+   ]
+  },
+  "double_tous": {
+   "joueurs": [
+    "N-VA",
+    "Vlaams Belang",
+    "MR",
+    "PS",
+    "PVDA-PTB",
+    "Les Engagés",
+    "Vooruit",
+    "CD&V",
+    "Ecolo-Groen",
+    "Anders",
+    "DéFI",
+    "Dedecker (ind.)"
+   ],
+   "shapley": [
+    0.12911255411255412,
+    0.11244588744588745,
+    0.16522366522366522,
+    0.16522366522366522,
+    0.04220779220779221,
+    0.16522366522366522,
+    0.06601731601731602,
+    0.062445887445887444,
+    0.04220779220779221,
+    0.04577922077922078,
+    0.0,
+    0.004112554112554113
+   ],
+   "banzhaf": [
+    0.14382022471910114,
+    0.1258426966292135,
+    0.14157303370786517,
+    0.14157303370786517,
+    0.04943820224719101,
+    0.14157303370786517,
+    0.07640449438202247,
+    0.07191011235955057,
+    0.04943820224719101,
+    0.05393258426966292,
+    0.0,
+    0.0044943820224719105
+   ],
+   "n_gagnantes": 1008,
+   "n_mwc": 69,
+   "mwc_min_taille": 5,
+   "mwc": [
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "Vooruit",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Vooruit",
+     "CD&V",
+     "Ecolo-Groen",
+     "Anders"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "CD&V",
+     "Ecolo-Groen",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Dedecker (ind.)"
+    ],
+    [
+     "Vlaams Belang",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "CD&V",
+     "Ecolo-Groen",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PS",
+     "PVDA-PTB",
+     "Ecolo-Groen",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "MR",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen",
+     "Anders",
+     "Dedecker (ind.)"
+    ],
+    [
+     "N-VA",
+     "PS",
+     "PVDA-PTB",
+     "Les Engagés",
+     "Ecolo-Groen",
+     "Anders",
+     "Dedecker (ind.)"
+    ]
+   ]
+  }
+ },
+ "coalitions": {
+  "Arizona": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "Vooruit",
+    "CD&V"
+   ],
+   "sieges": 80,
+   "nl": 47,
+   "fr": 33,
+   "majorite": true,
+   "maj_nl": true,
+   "maj_fr": true
+  },
+  "Arizona + Dedecker": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "Vooruit",
+    "CD&V",
+    "Dedecker (ind.)"
+   ],
+   "sieges": 81,
+   "nl": 48,
+   "fr": 33,
+   "majorite": true,
+   "maj_nl": true,
+   "maj_fr": true
+  },
+  "Sans Vooruit, avec Anders": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "CD&V",
+    "Anders"
+   ],
+   "sieges": 75,
+   "nl": 42,
+   "fr": 33,
+   "majorite": false,
+   "maj_nl": false,
+   "maj_fr": true
+  },
+  "Sans Vooruit, avec Anders + Dedecker": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "CD&V",
+    "Anders",
+    "Dedecker (ind.)"
+   ],
+   "sieges": 76,
+   "nl": 43,
+   "fr": 33,
+   "majorite": true,
+   "maj_nl": false,
+   "maj_fr": true
+  },
+  "Sans Vooruit, avec Anders + Dedecker + DéFI": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "CD&V",
+    "Anders",
+    "Dedecker (ind.)",
+    "DéFI"
+   ],
+   "sieges": 77,
+   "nl": 43,
+   "fr": 34,
+   "majorite": true,
+   "maj_nl": false,
+   "maj_fr": true
+  },
+  "Sans Vooruit, avec Ecolo-Groen": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "CD&V",
+    "Ecolo-Groen"
+   ],
+   "sieges": 76,
+   "nl": 41,
+   "fr": 35,
+   "majorite": true,
+   "maj_nl": false,
+   "maj_fr": true
+  },
+  "Sans Vooruit, avec Anders + Ecolo-Groen": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "CD&V",
+    "Anders",
+    "Ecolo-Groen"
+   ],
+   "sieges": 84,
+   "nl": 49,
+   "fr": 35,
+   "majorite": true,
+   "maj_nl": true,
+   "maj_fr": true
+  },
+  "Sans MR, avec PS": {
+   "partis": [
+    "N-VA",
+    "PS",
+    "Les Engagés",
+    "Vooruit",
+    "CD&V"
+   ],
+   "sieges": 78,
+   "nl": 47,
+   "fr": 31,
+   "majorite": true,
+   "maj_nl": true,
+   "maj_fr": true
+  },
+  "Sans Les Engagés, avec PS": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "PS",
+    "Vooruit",
+    "CD&V"
+   ],
+   "sieges": 81,
+   "nl": 47,
+   "fr": 34,
+   "majorite": true,
+   "maj_nl": true,
+   "maj_fr": true
+  },
+  "Sans CD&V, avec Anders": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "Vooruit",
+    "Anders"
+   ],
+   "sieges": 77,
+   "nl": 44,
+   "fr": 33,
+   "majorite": true,
+   "maj_nl": false,
+   "maj_fr": true
+  },
+  "Sans CD&V, avec Anders + Dedecker": {
+   "partis": [
+    "N-VA",
+    "MR",
+    "Les Engagés",
+    "Vooruit",
+    "Anders",
+    "Dedecker (ind.)"
+   ],
+   "sieges": 78,
+   "nl": 45,
+   "fr": 33,
+   "majorite": true,
+   "maj_nl": false,
+   "maj_fr": true
+  },
+  "Sans N-VA (« Vivaldi + Engagés »)": {
+   "partis": [
+    "PS",
+    "MR",
+    "Les Engagés",
+    "Vooruit",
+    "CD&V",
+    "Ecolo-Groen",
+    "Anders"
+   ],
+   "sieges": 90,
+   "nl": 39,
+   "fr": 51,
+   "majorite": true,
+   "maj_nl": false,
+   "maj_fr": true
+  }
+ }
+}

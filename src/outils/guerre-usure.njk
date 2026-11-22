@@ -1,0 +1,62 @@
+---
+title: Simulateur de guerre d'usure
+description: Un simulateur simplifié de la guerre d'usure appliqué à la crise budgétaire, avec l'effet des douzièmes provisoires et d'un choc extérieur sur la durée du blocage.
+chapeau: Combien de temps chacun peut-il attendre ? Le simulateur tire des milliers de combinaisons plausibles de patience et de coût, et montre quand le blocage se dénoue, et qui cède. Il illustre surtout l'effet des douzièmes provisoires et d'un choc extérieur.
+scripts: ["/assets/js/usure.js"]
+---
+<h2 id="le-principe">Le principe</h2>
+<p>Deux camps attendent que l'autre cède. Chacun attache une certaine valeur au fait de ne pas céder, son <strong>enjeu</strong>, et paie chaque semaine un <strong>coût d'attente</strong> : pression des marchés, des électeurs, des partenaires. Un camp tient tant que le coût accumulé reste inférieur à son enjeu. Celui dont la patience s'épuise le premier cède l'essentiel.</p>
+<p>Comme personne ne connaît exactement l'enjeu et le coût de l'autre, le simulateur tire au hasard 4 000 combinaisons autour des valeurs choisies, selon le degré d'incertitude réglé. Les unités sont arbitraires : seuls comptent les rapports entre les valeurs. C'est une version très simplifiée du modèle d'Alesina et Drazen (voir <a href="/modeles/guerre-usure/">La guerre d'usure</a>).</p>
+
+<h2 id="l-outil">L'outil</h2>
+<div class="outil" id="outil-usure">
+<div class="outil-grille">
+<form class="reglages" id="form-usure" aria-label="Paramètres de la guerre d'usure">
+  <div class="presets" role="group" aria-label="Préréglages">
+    <button type="button" class="bouton" data-preset="nous">Nos réglages</button>
+    <button type="button" class="bouton" data-preset="sans-douziemes">Sans douzièmes</button>
+    <button type="button" class="bouton" data-preset="choc">Choc de notation en janvier</button>
+    <button type="button" class="bouton" data-preset="vooruit-patient">Vooruit très patient</button>
+  </div>
+  <fieldset class="camp">
+    <legend>Vooruit</legend>
+    <div class="reglage"><label for="vA"><span>Enjeu</span><output id="vA-val" for="vA">4</output></label><input type="range" id="vA" name="vA" min="1" max="10" step="0.5" value="4"></div>
+    <div class="reglage"><label for="cA"><span>Coût d'attente par semaine</span><output id="cA-val" for="cA">0,8</output></label><input type="range" id="cA" name="cA" min="0.1" max="2" step="0.1" value="0.8"></div>
+  </fieldset>
+  <fieldset class="camp">
+    <legend>Les quatre et le Premier ministre</legend>
+    <div class="reglage"><label for="vB"><span>Enjeu</span><output id="vB-val" for="vB">4</output></label><input type="range" id="vB" name="vB" min="1" max="10" step="0.5" value="4"></div>
+    <div class="reglage"><label for="cB"><span>Coût d'attente par semaine</span><output id="cB-val" for="cB">1</output></label><input type="range" id="cB" name="cB" min="0.1" max="2" step="0.1" value="1"></div>
+  </fieldset>
+  <fieldset class="camp">
+    <legend>Contexte</legend>
+    <div class="reglage"><label for="inc"><span>Incertitude sur l'autre</span><output id="inc-val" for="inc">±50 %</output></label><input type="range" id="inc" name="inc" min="0" max="0.8" step="0.05" value="0.5">
+      <p class="aide">À 0, chacun connaît exactement l'autre. Plus l'incertitude est grande, plus les dénouements se dispersent.</p></div>
+    <label class="radio"><input type="checkbox" name="douz" id="douz" checked> Douzièmes provisoires en place</label>
+    <p class="aide">Ils réduisent de 30 % le coût de l'attente pour les deux camps : l'État continue de fonctionner.</p>
+    <label class="radio"><input type="checkbox" name="choc" id="choc"> Choc extérieur (dégradation de notation, par exemple)</label>
+    <div class="reglage"><label for="chocSem"><span>Semaine du choc</span><output id="chocSem-val" for="chocSem">7</output></label><input type="range" id="chocSem" name="chocSem" min="1" max="16" step="1" value="7"></div>
+    <div class="reglage"><label for="chocMult"><span>Le coût d'attente est multiplié par</span><output id="chocMult-val" for="chocMult">3</output></label><input type="range" id="chocMult" name="chocMult" min="1.5" max="5" step="0.5" value="3"></div>
+  </fieldset>
+</form>
+
+<div class="resultat" aria-live="polite">
+  <h3>Quand le blocage se dénoue</h3>
+  <p class="chiffre-cle" id="mediane-usure">–</p>
+  <p class="chiffre-legende" id="mediane-legende">Activez JavaScript pour lancer la simulation.</p>
+  <div id="histo-usure"></div>
+  <div class="lecture" id="lecture-usure"></div>
+  <p class="partager"><button type="button" class="bouton" id="copier-lien" hidden>Copier le lien vers ces réglages</button> <span id="copie-etat" class="note-outil" aria-live="polite"></span></p>
+</div>
+</div>
+</div>
+
+<h2 id="ce-que-l-outil-ne-dit-pas">Ce que l'outil ne dit pas</h2>
+<div class="encadre limite">
+<ul>
+<li><strong>Ce n'est pas un calcul d'équilibre.</strong> Dans le modèle d'Alesina et Drazen, chaque camp choisit sa date de concession en anticipant le comportement de l'autre. Ici, chacun tient simplement jusqu'à épuisement de sa patience. La simplification garde l'intuition, pas la rigueur.</li>
+<li><strong>Céder, c'est tout céder.</strong> Le simulateur ne connaît que deux issues. Dans la réalité, le dénouement est presque toujours un compromis ; « qui cède » signifie ici « qui cède l'essentiel ». Le <a href="/outils/marchandage/">simulateur de marchandage</a> traite des partages.</li>
+<li><strong>Les valeurs ne se mesurent pas.</strong> Personne ne connaît l'enjeu ni le coût d'attente réels des partis. Les réglages par défaut traduisent une lecture : le Premier ministre et ses partenaires sont un peu plus pressés que Vooruit.</li>
+<li><strong>Le calendrier est indicatif.</strong> La semaine 0 correspond au 22 novembre 2026. Les dates affichées découlent des unités choisies, pas d'une prévision.</li>
+</ul>
+</div>

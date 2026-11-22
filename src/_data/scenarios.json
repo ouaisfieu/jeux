@@ -1,0 +1,142 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "label": "Un geste lisible pour Vooruit est mis sur la table",
+      "defaut": 0.75,
+      "aide": "Par exemple une contribution des plus fortunés présentée comme un principe. Plus probable si l'échéance royale presse et si le précédent de 2025 sert de modèle.",
+      "lien": {
+        "url": "/modeles/marchandage/",
+        "titre": "Marchandage"
+      },
+      "court": "Un geste est proposé"
+    },
+    {
+      "id": "q2",
+      "label": "Le MR accepte ce geste",
+      "defaut": 0.8,
+      "aide": "Moins probable si le geste ressemble à une taxe nouvelle ou dépasse le plafond de recettes que le MR lit dans l'accord de gouvernement.",
+      "lien": {
+        "url": "/modeles/acteurs-de-veto/",
+        "titre": "Acteurs de veto"
+      },
+      "court": "Le MR l'accepte"
+    },
+    {
+      "id": "q3",
+      "label": "Vooruit signe si le geste est accepté",
+      "defaut": 0.85,
+      "aide": "Dépend de ce que le parti peut présenter comme une victoire à ses électeurs, face au PVDA sur sa gauche et aux syndicats.",
+      "lien": {
+        "url": "/modeles/jeux-imbriques/",
+        "titre": "Jeux imbriqués"
+      },
+      "court": "Vooruit signe avec le geste"
+    },
+    {
+      "id": "q4",
+      "label": "Vooruit cède même sans geste",
+      "defaut": 0.2,
+      "aide": "Plus probable si l'opinion lui attribue seul la responsabilité du blocage. Le sondage de novembre la partage presque également avec la N-VA.",
+      "lien": {
+        "url": "/modeles/signaux-et-reputation/#le-jeu-du-blame",
+        "titre": "Le jeu du blâme"
+      },
+      "court": "Vooruit cède sans geste"
+    },
+    {
+      "id": "q5",
+      "label": "Sans accord, on prolonge plutôt que de rompre",
+      "defaut": 0.55,
+      "aide": "Les douzièmes provisoires rendent l'attente supportable, la dissolution est encadrée et les sondages sont défavorables : autant de raisons de prolonger.",
+      "lien": {
+        "url": "/modeles/guerre-usure/",
+        "titre": "Guerre d'usure"
+      },
+      "court": "On prolonge plutôt que de rompre"
+    },
+    {
+      "id": "q6",
+      "label": "En cas de rupture, des élections plutôt qu'une autre majorité",
+      "defaut": 0.85,
+      "aide": "Aucune majorité de rechange n'est crédible sans le PS, qui refuse de servir de roue de secours.",
+      "lien": {
+        "url": "/arithmetique/#les-coalitions-de-rechange",
+        "titre": "Coalitions de rechange"
+      },
+      "court": "Élections plutôt que recomposition"
+    }
+  ],
+  "issues": [
+    {
+      "id": "A",
+      "nom": "Accord-cadre",
+      "detail": "Un accord sur les grands équilibres autour du 23 novembre ou dans les semaines suivantes, le détail pouvant suivre sous douzièmes."
+    },
+    {
+      "id": "B",
+      "nom": "Enlisement",
+      "detail": "Pas d'accord ni de rupture : nouveaux délais, douzièmes prolongés, accord éventuel début 2027."
+    },
+    {
+      "id": "C",
+      "nom": "Élections anticipées",
+      "detail": "Rupture, dissolution et scrutin au premier semestre 2027, pour une législature écourtée."
+    },
+    {
+      "id": "D",
+      "nom": "Recomposition",
+      "detail": "Rupture suivie d'une autre majorité ou d'un autre Premier ministre, sans élections."
+    }
+  ],
+  "presets": [
+    {
+      "id": "nous",
+      "nom": "Nos réglages du 22 novembre",
+      "valeurs": {
+        "q1": 0.75,
+        "q2": 0.8,
+        "q3": 0.85,
+        "q4": 0.2,
+        "q5": 0.55,
+        "q6": 0.85
+      }
+    },
+    {
+      "id": "optimiste",
+      "nom": "Optimiste",
+      "valeurs": {
+        "q1": 0.85,
+        "q2": 0.9,
+        "q3": 0.9,
+        "q4": 0.3,
+        "q5": 0.6,
+        "q6": 0.85
+      }
+    },
+    {
+      "id": "pessimiste",
+      "nom": "Pessimiste",
+      "valeurs": {
+        "q1": 0.6,
+        "q2": 0.6,
+        "q3": 0.7,
+        "q4": 0.1,
+        "q5": 0.45,
+        "q6": 0.9
+      }
+    },
+    {
+      "id": "document",
+      "nom": "Document de travail du 18 novembre",
+      "valeurs": {
+        "q1": 0.75,
+        "q2": 0.8,
+        "q3": 0.85,
+        "q4": 0.25,
+        "q5": 0.5,
+        "q6": 0.85
+      }
+    }
+  ]
+}

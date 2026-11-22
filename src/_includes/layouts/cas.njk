@@ -1,0 +1,22 @@
+---
+layout: layouts/page.njk
+---
+{%- set nomsModeles = {
+  "poule-mouillee": "Poule mouillée",
+  "guerre-usure": "Guerre d'usure",
+  "marchandage": "Marchandage",
+  "jeux-imbriques": "Jeux imbriqués",
+  "acteurs-de-veto": "Acteurs de veto",
+  "coalitions": "Coalitions",
+  "signaux-et-reputation": "Signaux et blâme",
+  "budget-commun": "Budget et bien commun"
+} -%}
+{% if periode %}
+<dl class="fiche">
+  <div><dt>Période</dt><dd>{{ periode }}</dd></div>
+  {% if joueurs %}<div><dt>Joueurs</dt><dd>{{ joueurs }}</dd></div>{% endif %}
+  {% if modeles %}<div><dt>Lecture</dt><dd>{% for m in modeles %}<a href="/modeles/{{ m }}/">{{ nomsModeles[m] }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</dd></div>{% endif %}
+  {% if issue %}<div><dt>Issue</dt><dd>{{ issue }}</dd></div>{% endif %}
+</dl>
+{% endif %}
+{{ content | safe }}

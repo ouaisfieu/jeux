@@ -1,0 +1,802 @@
+{
+ "acteurs": [
+  {
+   "id": "nva",
+   "nom": "N-VA"
+  },
+  {
+   "id": "mr",
+   "nom": "MR"
+  },
+  {
+   "id": "le",
+   "nom": "Les Engagés"
+  },
+  {
+   "id": "vooruit",
+   "nom": "Vooruit"
+  },
+  {
+   "id": "cdv",
+   "nom": "CD&V"
+  },
+  {
+   "id": "roi",
+   "nom": "Le Roi"
+  },
+  {
+   "id": "opposition",
+   "nom": "Opposition"
+  },
+  {
+   "id": "syndicats",
+   "nom": "Syndicats"
+  },
+  {
+   "id": "europe",
+   "nom": "UE et marchés"
+  },
+  {
+   "id": "regions",
+   "nom": "Régions"
+  }
+ ],
+ "types": [
+  {
+   "id": "negociation",
+   "nom": "Négociation"
+  },
+  {
+   "id": "institution",
+   "nom": "Institutions"
+  },
+  {
+   "id": "declaration",
+   "nom": "Déclaration"
+  },
+  {
+   "id": "economie",
+   "nom": "Économie et notation"
+  },
+  {
+   "id": "social",
+   "nom": "Mobilisation sociale"
+  },
+  {
+   "id": "parlement",
+   "nom": "Parlement"
+  },
+  {
+   "id": "precedent",
+   "nom": "Précédent historique"
+  }
+ ],
+ "evenements": [
+  {
+   "date": "1958-11-06",
+   "titre": "Pacte scolaire",
+   "texte": "Catholiques, socialistes et libéraux concluent un compromis global qui met fin à la « deuxième guerre scolaire ». Modèle du marchandage consociatif belge : chaque pilier obtient une garantie.",
+   "acteurs": [],
+   "type": "precedent",
+   "fiabilite": "B",
+   "sources": [
+    "wiki-pacte-scolaire",
+    "witte-1999"
+   ]
+  },
+  {
+   "date": "1970-05-28",
+   "titre": "Révision constitutionnelle : parité et sonnette d'alarme",
+   "texte": "La Constitution impose la parité linguistique du Conseil des ministres (Premier ministre excepté) et crée la procédure de « sonnette d'alarme ». Les vetos communautaires deviennent des règles écrites.",
+   "acteurs": [],
+   "type": "precedent",
+   "fiabilite": "A",
+   "sources": [
+    "chambre-1970-parite",
+    "chambre-1970-sonnette"
+   ]
+  },
+  {
+   "date": "2007-11-07",
+   "titre": "BHV : vote flamand en commission de l'Intérieur",
+   "texte": "Les députés flamands votent seuls la scission de Bruxelles-Hal-Vilvorde ; les francophones quittent la séance. Le Parlement de la Communauté française déclenche dès le 9 novembre un conflit d'intérêts qui suspend la procédure.",
+   "acteurs": [],
+   "type": "precedent",
+   "fiabilite": "B",
+   "sources": [
+    "lalibre-bhv-2010",
+    "lalibre-2007-11-09",
+    "cpcp-conflit"
+   ]
+  },
+  {
+   "date": "2011-11-21",
+   "titre": "Di Rupo demande à être déchargé ; le Roi tient sa décision en suspens",
+   "texte": "Après plus de 500 jours de formation, le formateur constate le blocage budgétaire. Le 25 novembre, Standard & Poor's dégrade la note belge ; le 26, un accord budgétaire tombe après une réunion d'environ 17 heures.",
+   "acteurs": [],
+   "type": "precedent",
+   "fiabilite": "B",
+   "sources": [
+    "dh-2011-11-21",
+    "dh-2011-11-25",
+    "lalibre-2011-11-26",
+    "emulations-2011"
+   ]
+  },
+  {
+   "date": "2014-10-11",
+   "titre": "Gouvernement Michel I, dit « kamikaze »",
+   "texte": "Le MR gouverne seul côté francophone avec la N-VA, le CD&V et l'Open VLD : la coalition est minoritaire dans le groupe linguistique français.",
+   "acteurs": [],
+   "type": "precedent",
+   "fiabilite": "B",
+   "sources": [
+    "lalibre-2014-07-21",
+    "lalibre-2018-12-09"
+   ]
+  },
+  {
+   "date": "2016-10-27",
+   "titre": "CETA : accord intra-belge après le veto wallon",
+   "texte": "Le Parlement wallon refusait depuis avril de déléguer ses pouvoirs pour signer le traité UE-Canada. Un accord intra-belge débloque la signature après des clarifications obtenues de l'UE.",
+   "acteurs": [],
+   "type": "precedent",
+   "fiabilite": "B",
+   "sources": [
+    "rtbf-ceta-2016",
+    "lavenir-ceta-2016",
+    "lalibre-ceta-2016"
+   ]
+  },
+  {
+   "date": "2018-12-08",
+   "titre": "Pacte de Marrakech : la N-VA quitte le gouvernement Michel",
+   "texte": "Charles Michel poursuit avec une coalition minoritaire, puis remet sa démission le 18 décembre face à une motion de méfiance annoncée ; le Roi tient sa décision en suspens avant de l'accepter.",
+   "acteurs": [],
+   "type": "precedent",
+   "fiabilite": "B",
+   "sources": [
+    "parismatch-2018-12-08",
+    "parismatch-2018-12-18",
+    "universalis-2018"
+   ]
+  },
+  {
+   "date": "2020-10-01",
+   "titre": "Gouvernement Vivaldi, 494 jours après les élections",
+   "texte": "Sept partis forment le gouvernement De Croo, sans majorité dans le groupe linguistique néerlandais. Entre-temps, la pandémie avait conduit à un gouvernement minoritaire doté de pouvoirs spéciaux (mars 2020).",
+   "acteurs": [],
+   "type": "precedent",
+   "fiabilite": "B",
+   "sources": [
+    "ucl-benelux-2020",
+    "wiki-formation-2019"
+   ]
+  },
+  {
+   "date": "2024-06-09",
+   "titre": "Élections fédérales, régionales et européennes",
+   "texte": "La N-VA reste le premier parti ; MR, Les Engagés et Vooruit progressent. Bart De Wever, informateur dès le 12 juin, plaide le 21 juin pour la coalition « Arizona ».",
+   "acteurs": [
+    "nva",
+    "mr",
+    "le",
+    "vooruit",
+    "cdv"
+   ],
+   "type": "institution",
+   "fiabilite": "B",
+   "sources": [
+    "wiki-formation-2024",
+    "pdy-2025"
+   ]
+  },
+  {
+   "date": "2024-08-22",
+   "titre": "Première démission de De Wever (formateur)",
+   "texte": "Faute d'accord de tous les partenaires, il remet sa mission ; Maxime Prévot est nommé médiateur royal le lendemain, puis De Wever est rappelé.",
+   "acteurs": [
+    "nva",
+    "roi"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "wiki-formation-2024",
+    "lalibre-2026-11-02"
+   ]
+  },
+  {
+   "date": "2024-10-31",
+   "titre": "Formation : quatre contre un, déjà",
+   "texte": "Quatre partis acceptent de continuer sur la base de la « supernote » socio-économique ; Vooruit la juge déséquilibrée, surtout sur le volet budgétaire.",
+   "acteurs": [
+    "vooruit",
+    "nva",
+    "mr",
+    "le",
+    "cdv"
+   ],
+   "type": "negociation",
+   "fiabilite": "C",
+   "sources": [
+    "wiki-formation-2024"
+   ]
+  },
+  {
+   "date": "2024-11-04",
+   "titre": "Deuxième démission de De Wever (formateur)",
+   "texte": "Le Roi tient sa décision en délibéré jusqu'au 12 novembre. La presse évoque déjà un « plan B » remplaçant Vooruit par l'Open VLD ; le PS exclut de servir de dépanneur.",
+   "acteurs": [
+    "nva",
+    "roi",
+    "vooruit",
+    "opposition"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "bx1-2024-11-04",
+    "dh-2024-11-04-alternatives",
+    "dh-2024-11-04-salle",
+    "brf-magnette-2024"
+   ]
+  },
+  {
+   "date": "2025-01-31",
+   "titre": "Accord de gouvernement Arizona",
+   "texte": "Les cinq partis concluent l'accord ; le gouvernement De Wever prête serment le 3 février, 239 jours après les élections.",
+   "acteurs": [
+    "nva",
+    "mr",
+    "le",
+    "vooruit",
+    "cdv"
+   ],
+   "type": "institution",
+   "fiabilite": "B",
+   "sources": [
+    "wiki-formation-2024"
+   ]
+  },
+  {
+   "date": "2025-02-07",
+   "titre": "La Chambre vote la confiance : 81 voix contre 66",
+   "texte": "Jean-Marie Dedecker, élu sur la liste N-VA, siège désormais comme indépendant mais vote la confiance.",
+   "acteurs": [
+    "nva",
+    "mr",
+    "le",
+    "vooruit",
+    "cdv"
+   ],
+   "type": "parlement",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-fr-2025-02-07",
+    "chambre-composition-2025"
+   ]
+  },
+  {
+   "date": "2025-04-26",
+   "titre": "Valerie Van Peel succède à De Wever à la présidence de la N-VA",
+   "texte": "Élue avec 96 % des voix, sans adversaire. Le Premier ministre n'est donc plus président de parti.",
+   "acteurs": [
+    "nva"
+   ],
+   "type": "institution",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-vanpeel-2025"
+   ]
+  },
+  {
+   "date": "2025-06-13",
+   "titre": "Fitch abaisse la note belge de AA- à A+",
+   "texte": "L'agence juge les déséquilibres budgétaires seulement partiellement corrigés, alors que les dépenses de défense augmentent.",
+   "acteurs": [
+    "europe"
+   ],
+   "type": "economie",
+   "fiabilite": "B",
+   "sources": [
+    "belga-fitch-2025"
+   ]
+  },
+  {
+   "date": "2025-11-06",
+   "titre": "Budget 2026 : De Wever chez le Roi, « cinquante jours »",
+   "texte": "Sans accord, le Premier ministre demande cinquante jours au Roi, en précisant que ce délai ne sera pas prolongé.",
+   "acteurs": [
+    "nva",
+    "roi"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "bx1-2025-11-06"
+   ]
+  },
+  {
+   "date": "2025-11-24",
+   "titre": "Accord budgétaire : 9,2 milliards d'ici 2029",
+   "texte": "Conclu à l'aube après une vingtaine d'heures de négociation, au premier jour d'une grève nationale de trois jours. Le MR se félicite qu'il n'y ait pas de hausse des taux de TVA.",
+   "acteurs": [
+    "nva",
+    "mr",
+    "le",
+    "vooruit",
+    "cdv",
+    "syndicats"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "rtbf-2025-11-24",
+    "bruzz-2025-11-24",
+    "parismatch-2025-11-24"
+   ],
+   "majeur": true
+  },
+  {
+   "date": "2025-12-11",
+   "titre": "Bruxelles : Bouchez menace de représailles au fédéral et en Wallonie",
+   "texte": "Quand Les Engagés tentent une majorité bruxelloise sans le MR, son président avertit De Wever de « conséquences » dans les gouvernements où les deux partis siègent ensemble.",
+   "acteurs": [
+    "mr",
+    "le",
+    "regions"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "lalibre-2025-12-11"
+   ]
+  },
+  {
+   "date": "2026-01-01",
+   "titre": "2026 commence sous crédits provisoires",
+   "texte": "Faute de budget voté à temps, l'État fédéral fonctionne par douzièmes provisoires de janvier à mars 2026.",
+   "acteurs": [],
+   "type": "institution",
+   "fiabilite": "A",
+   "sources": [
+    "chambre-credits-2026"
+   ]
+  },
+  {
+   "date": "2026-01-06",
+   "titre": "Michel De Maegd quitte le MR pour Les Engagés",
+   "texte": "Le député bruxellois, en désaccord avec la ligne de Georges-Louis Bouchez (notamment sur Gaza), rejoint l'autre parti francophone de la majorité : le MR passe à 18 sièges, Les Engagés à 15.",
+   "acteurs": [
+    "mr",
+    "le"
+   ],
+   "type": "parlement",
+   "fiabilite": "A",
+   "sources": [
+    "vrt-demaegd-2026",
+    "bx1-demaegd-2026",
+    "chambre-plen-2026-01-08"
+   ]
+  },
+  {
+   "date": "2026-01-19",
+   "titre": "L'Open VLD devient « Anders »",
+   "texte": "Les libéraux flamands, dans l'opposition fédérale, changent de nom.",
+   "acteurs": [
+    "opposition"
+   ],
+   "type": "institution",
+   "fiabilite": "B",
+   "sources": [
+    "lalibre-anders-2026"
+   ]
+  },
+  {
+   "date": "2026-02-12",
+   "titre": "Bruxelles : accord de gouvernement après 613 jours",
+   "texte": "MR, PS et Les Engagés côté francophone, Groen, Anders, Vooruit et CD&V côté néerlandophone (le CD&V sans ministre). Boris Dilliès (MR) devient ministre-président.",
+   "acteurs": [
+    "regions",
+    "mr",
+    "le",
+    "vooruit",
+    "cdv"
+   ],
+   "type": "negociation",
+   "fiabilite": "A",
+   "sources": [
+    "parismatch-2026-02-12",
+    "brusselstimes-bxl-2026",
+    "crisp-bruxelles-2026",
+    "bx1-cdv-bxl-2026"
+   ]
+  },
+  {
+   "date": "2026-04-17",
+   "titre": "Moody's abaisse la note belge de Aa3 à A1",
+   "texte": "Première dégradation par Moody's depuis quinze ans ; la perspective passe de négative à stable.",
+   "acteurs": [
+    "europe"
+   ],
+   "type": "economie",
+   "fiabilite": "B",
+   "sources": [
+    "lavenir-moodys-2026"
+   ]
+  },
+  {
+   "date": "2026-04-24",
+   "titre": "Standard & Poor's abaisse la note de AA à AA-",
+   "texte": "Quelques jours plus tôt, Eurostat avait publié un déficit 2025 de 5,2 % du PIB, le plus élevé de la zone euro.",
+   "acteurs": [
+    "europe"
+   ],
+   "type": "economie",
+   "fiabilite": "B",
+   "sources": [
+    "lalibre-sp-2026",
+    "belga-sp-2026"
+   ]
+  },
+  {
+   "date": "2026-05-21",
+   "titre": "Prévisions de printemps de la Commission",
+   "texte": "Déficit attendu à 5,2 % du PIB en 2026 puis 5,4 % en 2027, en hausse sous l'effet des dépenses de défense et d'intérêts.",
+   "acteurs": [
+    "europe"
+   ],
+   "type": "economie",
+   "fiabilite": "A",
+   "sources": [
+    "ce-printemps-2026",
+    "belga-ce-printemps"
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "titre": "Le MR trace une ligne rouge sur la TVA",
+   "texte": "Georges-Louis Bouchez annonce une longue bataille et un effort à réaliser du côté des dépenses.",
+   "acteurs": [
+    "mr"
+   ],
+   "type": "declaration",
+   "fiabilite": "B",
+   "sources": [
+    "dh-2026-09-06"
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "titre": "Sondage Ipsos : le Vlaams Belang en tête en Flandre",
+   "texte": "VB 27,8 %, N-VA 23 % ; en Wallonie, PS 29 %, MR 20,3 %, PTB 18,9 % ; à Bruxelles, PTB 21,4 %, PS 20,3 %. Terrain du 8 au 15 septembre.",
+   "acteurs": [
+    "opposition",
+    "nva",
+    "mr"
+   ],
+   "type": "declaration",
+   "fiabilite": "B",
+   "sources": [
+    "lavenir-2026-09-18",
+    "wiki-sondages-2029"
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "titre": "Ouverture des négociations budgétaires",
+   "texte": "Le MR et Les Engagés ne cachent pas leur crispation à la lecture de la note de départ du Premier ministre ; objectif : 10 milliards d'ici 2029.",
+   "acteurs": [
+    "nva",
+    "mr",
+    "le"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "dh-2026-09-21"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "titre": "Manifestation nationale contre l'austérité",
+   "texte": "Plusieurs dizaines de milliers de personnes ; violences et dégradations en marge du cortège.",
+   "acteurs": [
+    "syndicats"
+   ],
+   "type": "social",
+   "fiabilite": "B",
+   "sources": [
+    "parismatch-2026-11-06"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "titre": "Kern sans accord : blocage sur la TVA",
+   "texte": "Le Premier ministre propose de relever le taux normal à 22 % et de fusionner les taux de 6 et 12 % en un taux de 9 %. Le MR refuse ; Maxime Prévot désigne Bouchez comme principal obstacle.",
+   "acteurs": [
+    "nva",
+    "mr",
+    "le"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "parismatch-2026-10-11"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "titre": "De Wever abandonne la réforme de la TVA",
+   "texte": "Il se concentre sur l'exercice 2027 avec un budget plus limité (environ 4 milliards), idée finalement écartée. Le même jour expire l'échéance européenne pour transmettre le projet de budget.",
+   "acteurs": [
+    "nva",
+    "mr",
+    "europe"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-fr-2026-10-15",
+    "lalibre-2026-11-02",
+    "rtbf-henne-2026-10-15",
+    "vrt-liveblog-15oct"
+   ],
+   "majeur": true
+  },
+  {
+   "date": "2026-10-23",
+   "titre": "Vooruit freine à son tour",
+   "texte": "La presse résume : Vandenbroucke « fait son Bouchez ». Le président du CD&V se dit déçu ; les négociations se poursuivent pendant les congés d'automne.",
+   "acteurs": [
+    "vooruit",
+    "cdv"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "dh-2026-10-23",
+    "lavenir-2026-10-25",
+    "vrt-liveblog-oct"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "titre": "Rousseau : les douzièmes, « pas la fin du monde »",
+   "texte": "Le président de Vooruit relativise la perspective d'un début d'année 2027 sans budget voté.",
+   "acteurs": [
+    "vooruit"
+   ],
+   "type": "declaration",
+   "fiabilite": "B",
+   "sources": [
+    "lalibre-2026-11-02"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "titre": "De Wever remet la démission du gouvernement",
+   "texte": "Après l'échec du kern dans la nuit, le Roi tient sa décision en suspens et reçoit les cinq présidents de parti, non les vice-Premiers ministres.",
+   "acteurs": [
+    "nva",
+    "roi",
+    "mr",
+    "le",
+    "vooruit",
+    "cdv"
+   ],
+   "type": "institution",
+   "fiabilite": "B",
+   "sources": [
+    "rtbf-2026-11-02",
+    "lavenir-2026-11-02",
+    "lalibre-2026-11-02"
+   ],
+   "majeur": true
+  },
+  {
+   "date": "2026-11-05",
+   "titre": "Douzièmes provisoires confirmés pour 2027",
+   "texte": "À la Chambre, le Premier ministre parle d'un « échec cuisant pour le gouvernement ».",
+   "acteurs": [
+    "nva"
+   ],
+   "type": "parlement",
+   "fiabilite": "B",
+   "sources": [
+    "parismatch-2026-11-06"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "titre": "Le Roi refuse la démission",
+   "texte": "Il a recueilli des cinq présidents l'engagement formel de faire des concessions et demande la reprise immédiate des négociations ; rapport attendu le 16. Le même jour, Bouchez rappelle le plafond de 1,1 milliard de recettes nouvelles qu'il lit dans l'accord de gouvernement ; chaque vice-Premier pourra venir avec une personne de plus.",
+   "acteurs": [
+    "roi",
+    "mr",
+    "nva",
+    "le",
+    "vooruit",
+    "cdv"
+   ],
+   "type": "institution",
+   "fiabilite": "B",
+   "sources": [
+    "parismatch-2026-11-06",
+    "euronews-2026-11-06",
+    "vrt-liveblog-nov"
+   ],
+   "majeur": true
+  },
+  {
+   "date": "2026-11-09",
+   "titre": "Bilatérales au 16 rue de la Loi",
+   "texte": "David Clarinval vient avec Georges-Louis Bouchez (environ deux heures) ; Frank Vandenbroucke avec son chef de cabinet (un peu plus d'une heure).",
+   "acteurs": [
+    "nva",
+    "mr",
+    "vooruit"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-liveblog-nov"
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "titre": "Kern : quatre partis acceptent, Vooruit refuse",
+   "texte": "N-VA, MR, Les Engagés et CD&V acceptent le tableau du Premier ministre. Vooruit juge l'effort des plus aisés insuffisant et refuse de continuer sur cette base.",
+   "acteurs": [
+    "nva",
+    "mr",
+    "le",
+    "cdv",
+    "vooruit"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-liveblog-nov",
+    "bx1-2026-11-15",
+    "brusselstimes-2026-11-15"
+   ],
+   "majeur": true
+  },
+  {
+   "date": "2026-11-16",
+   "titre": "Une semaine de plus : échéance au lundi 23 novembre",
+   "texte": "Le Palais demande de poursuivre pour éviter « une crise politique et budgétaire dommageable ». Le Vlaams Belang annonce une motion de méfiance sans chance d'aboutir. Frank Vandenbroucke s'en prend publiquement à Bouchez et au Premier ministre.",
+   "acteurs": [
+    "roi",
+    "nva",
+    "vooruit",
+    "mr",
+    "opposition"
+   ],
+   "type": "institution",
+   "fiabilite": "B",
+   "sources": [
+    "parismatch-2026-11-16",
+    "bruzz-2026-11-16",
+    "dh-2026-11-16",
+    "vrt-liveblog-nov"
+   ],
+   "majeur": true
+  },
+  {
+   "date": "2026-11-17",
+   "titre": "Prévisions d'automne de la Commission",
+   "texte": "Déficit à 5,5 % du PIB en 2027 et 5,7 % en 2028 ; dette à 113,4 % puis 115,8 %. Vincent Van Peteghem (CD&V) juge « très irrespectueux » les propos de Vandenbroucke.",
+   "acteurs": [
+    "europe",
+    "cdv",
+    "vooruit"
+   ],
+   "type": "economie",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-en-2026-11-17",
+    "businessam-ce-automne",
+    "vrt-liveblog-nov"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "titre": "De Wever consulte ses partenaires sans Vooruit",
+   "texte": "Contacts discrets avec MR, CD&V et Les Engagés. Dans la majorité, une chute suivie d'élections anticipées n'est plus exclue.",
+   "acteurs": [
+    "nva",
+    "mr",
+    "le",
+    "cdv",
+    "vooruit"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "lalibre-2026-11-18",
+    "lavenir-2026-11-18"
+   ],
+   "majeur": true
+  },
+  {
+   "date": "2026-11-19",
+   "titre": "Chacun attend l'appel de l'autre",
+   "texte": "Vooruit maintient sa demande d'une contribution substantielle des millionnaires. Le politologue Carl Devos décrit des partenaires qui se regardent en attendant que le téléphone sonne.",
+   "acteurs": [
+    "vooruit",
+    "nva"
+   ],
+   "type": "declaration",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-liveblog-nov"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "titre": "Le contact N-VA–Vooruit est renoué",
+   "texte": "Valerie Van Peel et Conner Rousseau se parlent. Fitch maintient la note A+. Le gouvernement approuve la première tranche de douzièmes provisoires (janvier à mars 2027). Un sondage Ipsos pour Het Nieuwsblad attribue la responsabilité de la crise presque autant à Vooruit (27 %) qu'à la N-VA (26 %).",
+   "acteurs": [
+    "nva",
+    "vooruit",
+    "europe"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-liveblog-nov",
+    "lavenir-2026-11-20"
+   ],
+   "majeur": true
+  },
+  {
+   "date": "2026-11-20",
+   "titre": "Trois heures d'entretien De Wever–Rousseau",
+   "texte": "Rien ne filtre sur le contenu ; on ignore si la confiance est rétablie. Tous les partis disent vouloir poursuivre.",
+   "acteurs": [
+    "nva",
+    "vooruit"
+   ],
+   "type": "negociation",
+   "fiabilite": "B",
+   "sources": [
+    "rtbf-2026-11-21",
+    "vrt-liveblog-nov"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "titre": "Aucune réunion annoncée pour le week-end",
+   "texte": "Le Premier ministre doit retourner chez le Roi lundi, pour la quatrième fois ce mois-ci.",
+   "acteurs": [
+    "nva",
+    "roi"
+   ],
+   "type": "institution",
+   "fiabilite": "B",
+   "sources": [
+    "vrt-liveblog-nov"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "titre": "À venir : rapport au Roi et manifestation nationale",
+   "texte": "Le jour de l'échéance royale, le front commun syndical (FGTB, CSC, Synova) manifeste à Bruxelles.",
+   "acteurs": [
+    "roi",
+    "syndicats"
+   ],
+   "type": "social",
+   "fiabilite": "B",
+   "sources": [
+    "lavenir-2026-11-16",
+    "vrt-liveblog-nov",
+    "bx1-synova-2026"
+   ],
+   "avenir": true
+  }
+ ]
+}

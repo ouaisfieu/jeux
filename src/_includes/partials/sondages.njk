@@ -1,0 +1,24 @@
+<figure class="figure-sondage">
+  <figcaption class="figure-titre">{{ sondages.titre }}<span class="petit"> {{ sondages.source }}, en % des intentions de vote par région.</span></figcaption>
+  <p class="legende" aria-hidden="true"><span>Partis de la coalition Arizona</span><span class="l-neutre">Autres partis</span></p>
+  <div class="multiples">
+    {%- for r in sondages.regions %}
+    <div class="multiple">
+      <h3 class="multiple-titre">{{ r.nom }}</h3>
+      <table class="barres-table">
+        <caption class="visuellement-cache">{{ r.nom }} : intentions de vote</caption>
+        <tbody>
+        {%- for x in r.partis %}
+          <tr{% if x.arizona %} class="arizona"{% endif %}>
+            <th scope="row">{{ x.p }}{% if x.arizona %}<span class="visuellement-cache"> (Arizona)</span>{% endif %}</th>
+            <td class="bar-cell"><span class="bar" style="width: {{ (x.v / 30 * 100) | round(1) }}%"></span></td>
+            <td class="n">{{ x.v | num(1) }}</td>
+          </tr>
+        {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+    {%- endfor %}
+  </div>
+  <p class="note-figure">{{ sondages.note }}</p>
+</figure>

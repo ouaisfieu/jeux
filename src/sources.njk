@@ -1,0 +1,23 @@
+---
+layout: layouts/page.njk
+title: Sources
+description: Toutes les sources utilisées par le site, classées par catégorie, avec leur niveau de fiabilité, et les sources citées par les documents de travail que nous avons écartées.
+chapeau: "Toutes les sources citées sur ce site, classées par catégorie, avec leur niveau de fiabilité. Les sources écartées figurent aussi, avec la raison de leur mise à l'écart."
+---
+{%- set L = sources.liste -%}
+{%- set nEcartees = (L | where("categorie", "ecartee")).length -%}
+{%- set nTravail = (L | where("categorie", "travail")).length -%}
+<p>Le site s'appuie sur {{ L.length - nEcartees - nTravail }} sources. La liste comprend aussi, en fin de page, les {{ nTravail }} documents de travail à l'origine du site et {{ nEcartees }} sources qu'ils citaient et que nous avons écartées. La lettre qui accompagne chacune indique sa fiabilité, selon l'échelle expliquée dans la page <a href="/methode/#l-echelle-de-fiabilite">Méthode</a>. Les liens mènent aux pages d'origine, qui peuvent avoir changé ou disparu depuis leur consultation, le 22 novembre 2026 au plus tard.</p>
+
+{% for c in sources.categories %}
+{%- set liste = L | where("categorie", c.id) %}
+<section class="sources-cat" aria-labelledby="cat-{{ c.id }}">
+<h2 id="cat-{{ c.id }}">{{ c.titre }} <span class="petit">({{ liste.length }})</span></h2>
+<p class="sources-desc">{{ c.description }}</p>
+<ol class="sources-liste">
+{%- for s in liste %}
+<li id="src-{{ s.id }}"><span class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }}">{{ s.fiabilite }}</span> {% if s.auteur %}{{ s.auteur }}, {% endif %}{% if s.url %}<a href="{{ s.url }}">{{ s.titre }}</a>{% else %}<cite>{{ s.titre }}</cite>{% endif %}{% if s.media %}, {{ s.media }}{% endif %}{% if s.date %}, {{ s.date }}{% endif %}.{% if s.note %} <span class="sources-note">{{ s.note }}</span>{% endif %}</li>
+{%- endfor %}
+</ol>
+</section>
+{% endfor %}
