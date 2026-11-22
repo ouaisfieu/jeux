@@ -56,7 +56,7 @@ Sources de ce tableau : L'Avenir, Business AM et le direct de la VRT[^montants].
 
 ## Les joueurs
 
-Dans la négociation belge, les **présidents de parti** pèsent souvent plus que les ministres. Quand le Roi a voulu mesurer les chances d'un compromis, il a reçu les cinq présidents, et non les vice-Premiers ministres qui négocient au « kern »[^presidents]. Trois de ces présidents siègent hors du gouvernement : Georges-Louis Bouchez, Conner Rousseau et Sammy Mahdi. C'est aussi le cas de Valerie Van Peel, qui a succédé à Bart De Wever à la tête de la N-VA en avril 2025[^vanpeel].
+Dans la négociation belge, les **présidents de parti** pèsent souvent plus que les ministres. Quand le Roi a voulu mesurer les chances d'un compromis, il a reçu les cinq présidents, et non les vice-Premiers ministres qui négocient au « kern »[^presidents]. Aucun des cinq présidents ne siège au gouvernement : Georges-Louis Bouchez (MR), Conner Rousseau (Vooruit), Sammy Mahdi (CD&V), Yvan Verougstraete (Les Engagés) et Valerie Van Peel, qui a succédé à Bart De Wever à la tête de la N-VA en avril 2025[^vanpeel].
 
 <div class="tableau">
 <table class="table-texte">
@@ -149,7 +149,7 @@ Un sondage Ipsos pour Het Nieuwsblad, réalisé pendant la crise auprès de 500 
 [^sp]: {% src "lalibre-sp-2026" %}
 [^montants]: {% src "lavenir-2026-11-20" %} ; {% src "businessam-2026-11-16" %} ; {% src "vrt-liveblog-nov" %} (entrées des 6, 16 et 19 novembre).
 [^presidents]: {% src "lavenir-2026-11-02" %}
-[^vanpeel]: {% src "vrt-vanpeel-2025" %}
+[^vanpeel]: {% src "vrt-vanpeel-2025" %} ; {% src "bx1-verougstraete-2025" %}
 [^joueurs]: {% src "dh-2026-09-09" %} ; {% src "dh-2026-09-06" %} ; {% src "belga-prevot-2026" %} ; {% src "vrt-liveblog-schuldenrem" %} ; {% src "vrt-liveblog-nov" %} ; {% src "lavenir-2026-09-18" %}
 [^constitution]: {% src "constitution" %}
 [^vb]: {% src "dh-2026-11-16" %}

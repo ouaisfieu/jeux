@@ -56,7 +56,7 @@ Les mêmes partis gouvernent ensemble ailleurs, et les arènes communiquent.
 
 ### L'arène du parti
 
-En Belgique, les présidents de parti pèsent souvent plus que les ministres. Trois des cinq présidents de l'Arizona siègent hors du gouvernement, et la présidente de la N-VA n'en fait pas partie non plus[^presidents]. Ce sont eux que le Roi a reçus pour mesurer les chances d'un accord.
+En Belgique, les présidents de parti pèsent souvent plus que les ministres. Aucun des cinq présidents de l'Arizona ne siège au gouvernement[^presidents]. Ce sont eux que le Roi a reçus pour mesurer les chances d'un accord.
 
 Le format « +1 », qui permet depuis le 9 novembre à chaque vice-Premier ministre de venir au kern avec une personne de plus, revient à faire entrer le niveau II dans la salle[^plus1]. L'effet est double. Il réduit le risque d'échec involontaire, puisque ceux qui ratifient participent à la négociation. Mais il prive les négociateurs d'une excuse commode, « ma base n'acceptera pas », puisque la base est à la table.
 
@@ -80,6 +80,6 @@ Le cas belge le plus pur de jeu à deux niveaux reste l'épisode du CETA en 2016
 [^devos]: {% src "vrt-liveblog-devos-flandre" %}
 [^bouchez]: {% src "lalibre-2025-12-11" %}
 [^bxl]: {% src "parismatch-2026-02-12" %} ; {% src "crisp-bruxelles-2026" %}
-[^presidents]: {% src "lavenir-2026-11-02" %} ; {% src "vrt-vanpeel-2025" %}
+[^presidents]: {% src "lavenir-2026-11-02" %} ; {% src "vrt-vanpeel-2025" %} ; {% src "bx1-verougstraete-2025" %}
 [^plus1]: {% src "vrt-liveblog-nov" %}
 [^pavia]: {% src "deschouwer-vanparijs-2009" %}
