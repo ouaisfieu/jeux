@@ -167,7 +167,7 @@ La lecture courante (« Vooruit est irremplaçable, donc il a le levier ») est 
 
 ## Reproduire le calcul
 
-Le calcul tient en quelques dizaines de lignes de Python. Il énumère les 2<sup>n</sup> coalitions possibles (4 096 pour les 12 groupes) et vérifie, pour chacune, les seuils choisis. Le script et ses résultats sont publiés avec le code du site : [scripts/power.py]({{ site.depot }}/blob/main/scripts/power.py) et [les résultats au format JSON](/donnees/pouvoir.json). Pour tester une autre hypothèse (un député qui change de groupe, un cordon levé…), il suffit de modifier le tableau des partis en tête du script.
+Le calcul tient en quelques dizaines de lignes de Python. Il énumère les 2<sup>n</sup> coalitions possibles (4 096 pour les 12 groupes) et vérifie, pour chacune, les seuils choisis. Le script et ses résultats sont publiés avec le code du site : [scripts/power.py]({{ site.depot }}/blob/main/scripts/power.py) et [les résultats au format JSON](/donnees/pouvoir.json). Pour tester une autre hypothèse (un député qui change de groupe, un cordon levé…), il suffit de modifier le tableau des partis en tête du script.
 
 [^groupes]: {% src "chambre-groupes-linguistiques" %} ; {% src "chambre-fiche-composition" %}
 [^confiance]: {% src "vrt-fr-2025-02-07" %} ; {% src "chambre-composition-2025" %}

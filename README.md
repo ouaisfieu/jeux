@@ -4,7 +4,7 @@ La théorie des jeux appliquée à la politique belge, avec un accent sur la cri
 
 Site publié : https://ouaisfieu.github.io/jeux/
 
-État des informations : dimanche 22 novembre 2026, 5 h (heure de Bruxelles).
+État des informations : dimanche 22 novembre 2026, 10 h (heure de Bruxelles).
 
 ## Contenu
 

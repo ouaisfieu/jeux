@@ -30,7 +30,7 @@ Les agences de notation ont déjà réagi.
 - Fitch est passée de AA- à A+ en juin 2025[^fitch2025].
 - Moody's est passée de Aa3 à A1 le 17 avril 2026[^moodys].
 - Standard & Poor's est passée de AA à AA- le 24 avril 2026[^sp].
-- Le 20 novembre 2026, en pleine crise, Fitch a maintenu son A+. Elle dit s'attendre à une solution comparable à celle de l'an dernier[^contact].
+- Le 20 novembre 2026, en pleine crise, Fitch a maintenu son A+. Elle dit s'attendre à une solution comparable à celle de l'an dernier, tout en mettant en garde contre l'effet boule de neige des intérêts d'ici 2030. Moody's et S&P avaient elles aussi maintenu leur note en octobre[^contact].
 
 Ce qui se joue n'est donc pas seulement un chiffre. Les douzièmes provisoires permettent de continuer à percevoir l'impôt et à dépenser, mais pas de lancer des politiques nouvelles. Chaque semaine sans accord repousse les réformes et expose la signature de l'État.
 
@@ -52,7 +52,7 @@ L'essentiel de l'enveloppe semble arbitré. Le désaccord porte sur sa compositi
 </table>
 </div>
 
-Sources de ce tableau : L'Avenir, Business AM et le direct de la VRT[^montants]. Sont aussi sur la table, selon la presse : des hausses ciblées de TVA, des pistes de taxation des comptes-titres et des sociétés de management, et deux propositions du MR sur les flexi-jobs[^contact].
+Sources de ce tableau : L'Avenir, Business AM et le direct de la VRT[^montants]. Sont aussi sur la table, selon la presse : des hausses ciblées de TVA, des pistes de taxation des comptes-titres et des sociétés de management, et deux propositions du MR sur les flexi-jobs[^contact]. Le 20 novembre, selon la VRT, le Premier ministre voyait une piste dans l'abaissement du seuil de la taxe sur les comptes-titres, de 1 million à 750 000 euros ; Vooruit devait la juger insuffisante à ce stade[^vrt].
 
 ## Les joueurs
 

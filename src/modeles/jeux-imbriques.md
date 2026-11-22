@@ -46,6 +46,8 @@ Quatre partenaires sur cinq sont en recul ou devancés dans leur région. Pour V
 
 La structure du système renforce cette logique. Depuis la scission des partis nationaux, chaque parti ne se présente que devant les électeurs d'une seule communauté. Aucun ne paie dans les urnes le prix d'un blocage auprès des électeurs de l'autre. C'est l'argument central des partisans d'une circonscription fédérale, qui obligerait une partie des élus à rechercher des voix des deux côtés[^pavia].
 
+Le registre de certaines attaques le confirme. Le 16 novembre, à la télévision flamande, Frank Vandenbroucke décrit Georges-Louis Bouchez comme un belgicain d'un autre temps, qui ne parle que le français et se situe très à droite[^vdb]. L'argument ne sert à rien autour de la table, où il ne peut que durcir le MR. Il s'adresse à l'électorat flamand.
+
 Le raisonnement vaut pour les autres partenaires. Le MR a fait du refus de nouvelles taxes un marqueur face au PS. La N-VA, devancée par le Vlaams Belang, a besoin de montrer un résultat budgétaire et ne gagnerait rien à des élections anticipées.
 
 ### L'arène régionale
@@ -83,3 +85,4 @@ Le cas belge le plus pur de jeu à deux niveaux reste l'épisode du CETA en 2016
 [^presidents]: {% src "lavenir-2026-11-02" %} ; {% src "vrt-vanpeel-2025" %} ; {% src "bx1-verougstraete-2025" %}
 [^plus1]: {% src "vrt-liveblog-nov" %}
 [^pavia]: {% src "deschouwer-vanparijs-2009" %}
+[^vdb]: {% src "vrt-liveblog-nov" %}

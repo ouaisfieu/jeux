@@ -56,8 +56,8 @@ Le sondage Ipsos réalisé pour Het Nieuwsblad pendant la crise donne une idée 
 Le blâme se répartit à parts presque égales entre les deux protagonistes. Aucun n'est donc poussé à céder par la peur d'être seul accusé. Ce résultat aide à comprendre la stabilité du blocage au 22 novembre.
 
 La communication des joueurs se lit aussi comme une bataille pour le blâme.
-- Le 16 novembre, Frank Vandenbroucke chiffre à 253 millions d'euros les avantages fiscaux des footballeurs professionnels, pour souligner ce que d'autres refusent de toucher. Le lendemain, Vincent Van Peteghem juge ses propos « très irrespectueux »[^vdb].
-- Le 19 novembre, le politologue Carl Devos résume la situation : chacun attend le coup de fil de l'autre[^devos]. Appeler le premier, c'est paraître céder ; ne pas répondre, c'est paraître bloquer.
+- Le 16 novembre, Frank Vandenbroucke chiffre à 253 millions d'euros les avantages fiscaux des footballeurs professionnels, pour souligner ce que d'autres refusent de toucher. Le lendemain, le ministre du Budget Vincent Van Peteghem (CD&V) juge ses propos « très irrespectueux » et y voit une attaque de bas étage contre le Premier ministre et Maxime Prévot[^vdb].
+- Le 19 novembre, le politologue Carl Devos résume la situation : chacun attend le coup de fil de l'autre[^devos]. Appeler le premier, c'est paraître céder ; ne pas répondre, c'est paraître bloquer. Le lendemain matin, Conner Rousseau fait savoir qu'il décroche toujours quand le Premier ministre appelle : la balle est dans l'autre camp. Le soir même, les deux hommes se parlent pendant trois heures[^appel].
 - L'opposition joue aussi ce jeu. Dès le 2 novembre, elle dénonce « un gouvernement qui protège les grandes fortunes »[^opposition]. Le Vlaams Belang annonce une motion de méfiance sans chance d'aboutir, qui oblige les partenaires à afficher leur soutien au gouvernement[^vb]. Le PS refuse depuis 2024 de servir de roue de secours, ce qui lui évite de partager la responsabilité d'un sauvetage[^ps].
 
 ## Les fuites
@@ -85,6 +85,7 @@ Joseph Cappella et Kathleen Hall Jamieson ont montré que la couverture de la po
 [^blame]: {% src "lavenir-2026-11-20" %}
 [^vdb]: {% src "vrt-liveblog-nov" %}
 [^devos]: {% src "vrt-liveblog-nov" %}
+[^appel]: {% src "vrt-liveblog-nov" %} ; {% src "rtbf-2026-11-21" %}
 [^vb]: {% src "dh-2026-11-16" %}
 [^opposition]: {% src "bx1-2026-11-02" %}
 [^ps]: {% src "brf-magnette-2024" %}
