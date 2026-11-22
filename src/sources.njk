@@ -16,7 +16,7 @@ chapeau: "Toutes les sources citées sur ce site, classées par catégorie, avec
 <p class="sources-desc">{{ c.description }}</p>
 <ol class="sources-liste">
 {%- for s in liste %}
-<li id="src-{{ s.id }}"><span class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }}">{{ s.fiabilite }}</span> {% if s.auteur %}{{ s.auteur }}, {% endif %}{% if s.url %}<a href="{{ s.url }}">{{ s.titre }}</a>{% else %}<cite>{{ s.titre }}</cite>{% endif %}{% if s.media %}, {{ s.media }}{% endif %}{% if s.date %}, {{ s.date }}{% endif %}.{% if s.note %} <span class="sources-note">{{ s.note }}</span>{% endif %}</li>
+<li id="src-{{ s.id }}"><span data-pagefind-ignore class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }}">{{ s.fiabilite }}</span> {% if s.auteur %}{{ s.auteur }}, {% endif %}{% if s.url %}<a href="{{ s.url }}">{{ s.titre }}</a>{% else %}<cite>{{ s.titre }}</cite>{% endif %}{% if s.media %}, {{ s.media }}{% endif %}{% if s.date %}, {{ s.date }}{% endif %}.{% if s.note %} <span class="sources-note">{{ s.note }}</span>{% endif %}</li>
 {%- endfor %}
 </ol>
 </section>

@@ -70,7 +70,7 @@ scripts: ["/assets/js/verification.js"]
   <p class="verif-tete">{% for s in V.statuts %}{% if s.id == p.statut %}<span class="statut statut-{{ s.id }}">{{ s.nom }}</span>{% endif %}{% endfor %}<span>{{ p.theme }}</span></p>
   <p class="verif-affirmation">{{ p.affirmation }}</p>
   <p class="verif-verdict">{{ p.verdict }}</p>
-  {% if p.sources.length %}<p class="verif-sources">Sources : {% for id in p.sources %}{% set s = sourcesParId[id] %}{% if s.url %}<a href="{{ s.url }}">{{ s.media or s.titre }}</a>{% else %}{{ s.auteur or s.media or s.titre }}{% endif %} <span class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }}">{{ s.fiabilite }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+  {% if p.sources.length %}<p class="verif-sources">Sources : {% for id in p.sources %}{% set s = sourcesParId[id] %}{% if s.url %}<a href="{{ s.url }}">{{ s.media or s.titre }}</a>{% else %}{{ s.auteur or s.media or s.titre }}{% endif %} <span data-pagefind-ignore class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }}">{{ s.fiabilite }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
 </article>
 {%- endfor %}
 {%- endfor %}

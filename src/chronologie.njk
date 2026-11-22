@@ -43,7 +43,7 @@ scripts: ["/assets/js/chronologie.js"]
       <p class="chrono-meta">
         <span>{{ e.typeNom }}{% if e.majeur %}, tournant{% endif %}{% if e.avenir %}, annoncé{% endif %}</span>
         {% if e.acteursNoms.length %}<span>{{ e.acteursNoms | join(", ") }}</span>{% endif %}
-        <span>Sources : {% for id in e.sources %}{% set s = sourcesParId[id] %}{% if s.url %}<a href="{{ s.url }}">{{ s.media }}</a>{% else %}{{ s.media or s.titre }}{% endif %} <span class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }} (voir Méthode)">{{ s.fiabilite }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</span>
+        <span>Sources : {% for id in e.sources %}{% set s = sourcesParId[id] %}{% if s.url %}<a href="{{ s.url }}">{{ s.media }}</a>{% else %}{{ s.media or s.titre }}{% endif %} <span data-pagefind-ignore class="grade grade-{{ s.fiabilite }}" title="Fiabilité {{ s.fiabilite }} (voir Méthode)">{{ s.fiabilite }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</span>
       </p>
     </div>
   </li>

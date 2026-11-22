@@ -531,3 +531,4 @@ details.valeurs summary { cursor: pointer; color: var(--ink-2); }
 .partage div { transition: flex-grow .25s ease-out; }
 @media (prefers-reduced-motion: reduce) { .partage div { transition: none; } }
 .comparaison td:nth-child(2), .comparaison td:nth-child(3) { white-space: nowrap; }
+.recherche-zone mark { background: var(--laiton-wash); color: inherit; padding: 0 .1em; }

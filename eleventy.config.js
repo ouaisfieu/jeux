@@ -113,7 +113,7 @@ export default function (eleventyConfig) {
     const date = s.date ? `, ${s.date}` : "";
     const auteur = s.auteur ? `${s.auteur}, ` : "";
     const titre = s.url ? `[${s.titre}](${s.url})` : s.titre;
-    return `${auteur}${s.media ? s.media + ", " : ""}« ${titre} »${date}. <span class="grade grade-${s.fiabilite}" title="Fiabilité ${s.fiabilite} (voir Méthode)">${s.fiabilite}</span>`;
+    return `${auteur}${s.media ? s.media + ", " : ""}« ${titre} »${date}. <span data-pagefind-ignore class="grade grade-${s.fiabilite}" title="Fiabilité ${s.fiabilite} (voir Méthode)">${s.fiabilite}</span>`;
   });
 
   eleventyConfig.addCollection("modeles", (api) =>

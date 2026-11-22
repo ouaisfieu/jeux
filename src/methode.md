@@ -45,11 +45,11 @@ Chaque source porte une lettre, visible dans les notes et dans la page [Sources]
 <caption>Les cinq niveaux de fiabilité</caption>
 <thead><tr><th scope="col">Lettre</th><th scope="col">Ce qu'elle recouvre</th><th scope="col">Usage sur ce site</th></tr></thead>
 <tbody>
-<tr><td><span class="grade grade-A">A</span></td><td>Documents officiels, textes juridiques, publications scientifiques évaluées par les pairs, analyses du CRISP</td><td>Fondent les règles, les chiffres et les modèles</td></tr>
-<tr><td><span class="grade grade-B">B</span></td><td>Presse de référence, agences, médias publics, directs horodatés</td><td>Fondent les faits datés ; prudence quand elles rapportent des sources anonymes</td></tr>
-<tr><td><span class="grade grade-C">C</span></td><td>Encyclopédies, agrégateurs sérieux, reprises de dépêches</td><td>Repérage et contexte ; jamais seules pour un fait discuté</td></tr>
-<tr><td><span class="grade grade-D">D</span></td><td>Sources non signées, militantes ou invérifiables</td><td>Écartées comme appui</td></tr>
-<tr><td><span class="grade grade-I">I</span></td><td>Documents internes de travail</td><td>Points de départ à vérifier, jamais preuves</td></tr>
+<tr><td><span data-pagefind-ignore class="grade grade-A">A</span></td><td>Documents officiels, textes juridiques, publications scientifiques évaluées par les pairs, analyses du CRISP</td><td>Fondent les règles, les chiffres et les modèles</td></tr>
+<tr><td><span data-pagefind-ignore class="grade grade-B">B</span></td><td>Presse de référence, agences, médias publics, directs horodatés</td><td>Fondent les faits datés ; prudence quand elles rapportent des sources anonymes</td></tr>
+<tr><td><span data-pagefind-ignore class="grade grade-C">C</span></td><td>Encyclopédies, agrégateurs sérieux, reprises de dépêches</td><td>Repérage et contexte ; jamais seules pour un fait discuté</td></tr>
+<tr><td><span data-pagefind-ignore class="grade grade-D">D</span></td><td>Sources non signées, militantes ou invérifiables</td><td>Écartées comme appui</td></tr>
+<tr><td><span data-pagefind-ignore class="grade grade-I">I</span></td><td>Documents internes de travail</td><td>Points de départ à vérifier, jamais preuves</td></tr>
 </tbody>
 </table>
 </div>
