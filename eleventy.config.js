@@ -22,7 +22,8 @@ function frenchTypography(html) {
     parts[i] = p
       .replace(/ ([;:!?»])/g, " $1")
       .replace(/« /g, "« ")
-      .replace(/(\d) (%|€)/g, "$1 $2");
+      .replace(/(\d) (%|€)/g, "$1 $2")
+      .replace(/\b(N-VA|PVDA-PTB|PTB-PVDA|Ecolo-Groen|Open VLD|CD&amp;V)\b/g, '<span class="insecable">$1</span>');
   }
   return parts.join("");
 }
